@@ -67,11 +67,17 @@ const questionCountSelect = document.getElementById("question-count");
 const questionContainer = document.getElementById("question");
 const scoreContainer = document.getElementById("result-container");
 
+function randomSeed() {
+    const seed = Date.now();
+    let x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+}
+
 // function to generate a vector of random numbers between 0 and number of questions - 1
 function generateShuffledIndexes(size) {
     const indexes = Array.from({ length: size }, (_, i) => i); // [0, 1, 2, ..., size-1]
     for (let i = indexes.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(randomSeed() * (i + 1));
         // change order
         [indexes[i], indexes[j]] = [indexes[j], indexes[i]]; 
     }
@@ -105,7 +111,17 @@ function loadQuestion() {
     optionsContainer.innerHTML = "";
     nextButton.disabled = true;
 
-    currentQuestion.options.forEach(option => {
+    // shuffle indexes
+    const shuffledOptionsIndexes = generateShuffledIndexes(currentQuestion.options.length);
+    const shuffledOptions = [];
+
+    // fill array
+    for (let i = 0; i < shuffledOptionsIndexes.length; i++) {
+        shuffledOptions[i] = currentQuestion.options[shuffledOptionsIndexes[i]];
+    }
+
+    // show shuffled
+    shuffledOptions.forEach(option => {
         const optionElement = document.createElement("div");
         optionElement.classList.add("option");
         optionElement.textContent = option;
