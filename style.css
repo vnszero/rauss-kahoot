@@ -29,13 +29,22 @@ h1 {
     color: #333;
 }
 
+#game-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+}
+
 #options-container {
     display: flex;
     flex-direction: column;
 }
 
 .container {
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 500px;
@@ -45,12 +54,21 @@ h1 {
 }
 
 .option {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px;
     padding: 10px;
-    margin: 5px 0;
+}
+
+.option.correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+.option.incorrect {
+    background-color: #f44336;
+    color: white;
 }
 
 .option:hover {

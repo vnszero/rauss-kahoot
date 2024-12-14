@@ -54,6 +54,24 @@ const questions = [
      { question: "Qual título é representado por uma medalha dourada?", options: ["Honoris Causa", "Veterano Nomeado", "Mestre", "Tuno"], answer: "Honoris Causa" },
 ];
 
+// function to generate a vector of random numbers between 0 and number of questions - 1
+function generateShuffledIndexes(size) {
+    const indexes = Array.from({ length: size }, (_, i) => i); // [0, 1, 2, ..., size-1]
+    for (let i = indexes.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        // change order
+        [indexes[i], indexes[j]] = [indexes[j], indexes[i]]; 
+    }
+    return indexes;
+}
+
+// generate and shuffle
+const shuffledIndexes = generateShuffledIndexes(questions.length);
+
+// select first GAME_SIZE questions using the random index
+const selectedIndexes = shuffledIndexes.slice(0, GAME_SIZE);
+const gameQuestions = selectedIndexes.map(index => questions[index]);
+
 let currentQuestionIndex = 0;
 let score = 0;
 
@@ -64,9 +82,40 @@ const nextButton = document.getElementById("next-button");
 const resultContainer = document.getElementById("result-container");
 const scoreElement = document.getElementById("score");
 
+// select an option
+function selectOption(element, option) {
+    const currentQuestion = gameQuestions[currentQuestionIndex];
+    const isCorrect = option === currentQuestion.answer;
+
+    if (isCorrect) {
+        element.classList.add("correct");
+        score++;
+    } else {
+        element.classList.add("incorrect");
+    }
+
+    Array.from(optionsContainer.children).forEach(child => {
+        child.onclick = null;
+        if (child.textContent === currentQuestion.answer) {
+            child.classList.add("correct");
+        }
+    });
+
+    nextButton.disabled = false;
+}
+
+// show result
+function showResult() {
+    questionElement.textContent = "Fim do jogo!";
+    optionsContainer.innerHTML = "";
+    nextButton.style.display = "none";
+    resultContainer.style.display = "block";
+    scoreElement.textContent = `Você acertou ${score} de ${GAME_SIZE} perguntas!`;
+}
+
 // load question
 function loadQuestion() {
-    const currentQuestion = questions[currentQuestionIndex];
+    const currentQuestion = gameQuestions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
     optionsContainer.innerHTML = "";
     nextButton.disabled = true;
@@ -80,38 +129,26 @@ function loadQuestion() {
     });
 }
 
-// select an option
-function selectOption(optionElement, selectedOption) {
-    document.querySelectorAll(".option").forEach(option => {
-        option.classList.remove("selected");
-    });
-    optionElement.classList.add("selected");
-    nextButton.disabled = false;
-}
-
-// verify answer and pass to next question
-nextButton.onclick = () => {
-    const selectedOption = document.querySelector(".option.selected").textContent;
-    const correctAnswer = questions[currentQuestionIndex].answer;
-
-    if (selectedOption === correctAnswer) {
-        score++;
-    }
-
+// next question
+function nextQuestion() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < GAME_SIZE) {
+
+    if (currentQuestionIndex < gameQuestions.length) {
         loadQuestion();
     } else {
-        showResults();
+        showResult();
     }
-};
-
-// show results
-function showResults() {
-    document.getElementById("quiz-container").style.display = "none";
-    resultContainer.style.display = "block";
-    scoreElement.textContent = `Você acertou ${score} de ${GAME_SIZE} perguntas!`;
 }
 
-// start game
-loadQuestion();
+// initialize the game
+function startGame() {
+    currentQuestionIndex = 0;
+    score = 0;
+    resultContainer.style.display = "none";
+    loadQuestion();
+}
+
+nextButton.addEventListener("click", nextQuestion);
+
+// start the game
+startGame();
