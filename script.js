@@ -54,6 +54,9 @@ const questions = [
 let currentQuestionIndex = 0;
 let score = 0;
 let totalQuestions = 5;
+let easterEggSequence = ["ArrowLeft", "ArrowDown", "ArrowRight", "ArrowDown", "ArrowLeft"];
+let currentInputIndex = 0;
+let gameStarted = false;
 
 // DOM elements
 const questionElement = document.getElementById("question");
@@ -169,10 +172,29 @@ startButton.addEventListener("click", () => {
     startButton.style.backgroundColor = '#f44336';
     startButton.style.color = 'white'; 
     startButton.textContent = 'Recomeçar';
+    gameStarted = true;
+    document.getElementById('easter-egg').style.display = "none";
 
     startGame();
 });
 
 nextButton.addEventListener("click", nextQuestion);
+
+document.addEventListener("keydown", (event) => {
+    // game could not be started to show easter egg
+    if (!gameStarted) {
+        if (event.key === easterEggSequence[currentInputIndex]) {
+            currentInputIndex++;
+            if (currentInputIndex === easterEggSequence.length) {
+                // correct sequence detected
+                document.getElementById("easter-egg").style.display = "block";
+                alert("Easter Egg Desbloqueado! Veja os autores do projeto.");
+                currentInputIndex = 0;
+            }
+        } else {
+            currentInputIndex = 0; // wrong sequence
+        }
+    }
+});
 
 startGame();
