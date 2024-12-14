@@ -130,12 +130,14 @@ header h1 {
     padding: 10px;
 }
 
-.option.correct {
+.option.correct,
+.option.correct:hover {
     background-color: #4caf50;
     color: white;
 }
 
-.option.incorrect {
+.option.incorrect,
+.option.incorrect:hover {
     background-color: #f44336;
     color: white;
 }
