@@ -26,12 +26,14 @@ button:disabled {
 
 footer {
     text-align: center;
-    padding: 20px;
+    display: block;
     background-color: #222;
     color: white;
     position: fixed;
     bottom: 0;
+    margin: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -42,6 +44,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: #8787a8;
     color: white;
     padding: 10px;
