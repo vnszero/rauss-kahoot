@@ -67,6 +67,9 @@ const questionCountSelect = document.getElementById("question-count");
 const questionContainer = document.getElementById("question");
 const scoreContainer = document.getElementById("result-container");
 
+// update year
+document.getElementById('current-year').textContent = new Date().getFullYear();
+
 function randomSeed() {
     const seed = Date.now();
     let x = Math.sin(seed) * 10000;

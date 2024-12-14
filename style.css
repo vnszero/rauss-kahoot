@@ -25,6 +25,16 @@ button:disabled {
     cursor: not-allowed;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 h1 {
     color: #333;
 }
@@ -33,7 +43,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a8a8c7;
+    background-color: #8787a8;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
