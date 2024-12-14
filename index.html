@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
+    <header>
         <h1>Quiz RaussTuna</h1>
+        <div id="controls">
+            <label for="question-count">Número de questões:</label>
+            <select id="question-count">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+            </select>
+            <button id="start-button">Começar</button>
+        </div>
+    </header>
+
+    <div id="game-container" style="display: none;">
         <div id="question"></div>
         <div id="options-container"></div>
         <button id="next-button" disabled>Próxima Pergunta</button>

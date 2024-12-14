@@ -1,6 +1,3 @@
-// const GAME_SIZE = questions.length
-const GAME_SIZE = 5
-
 // game questions
 const questions = [
      // history and background
@@ -54,6 +51,22 @@ const questions = [
      { question: "Qual título é representado por uma medalha dourada?", options: ["Honoris Causa", "Veterano Nomeado", "Mestre", "Tuno"], answer: "Honoris Causa" },
 ];
 
+let currentQuestionIndex = 0;
+let score = 0;
+let totalQuestions = 5;
+
+// DOM elements
+const questionElement = document.getElementById("question");
+const optionsContainer = document.getElementById("options-container");
+const nextButton = document.getElementById("next-button");
+const resultContainer = document.getElementById("result-container");
+const scoreElement = document.getElementById("score");
+const startButton = document.getElementById("start-button");
+const gameContainer = document.getElementById("game-container");
+const questionCountSelect = document.getElementById("question-count");
+const questionContainer = document.getElementById("question");
+const scoreContainer = document.getElementById("result-container");
+
 // function to generate a vector of random numbers between 0 and number of questions - 1
 function generateShuffledIndexes(size) {
     const indexes = Array.from({ length: size }, (_, i) => i); // [0, 1, 2, ..., size-1]
@@ -65,24 +78,6 @@ function generateShuffledIndexes(size) {
     return indexes;
 }
 
-// generate and shuffle
-const shuffledIndexes = generateShuffledIndexes(questions.length);
-
-// select first GAME_SIZE questions using the random index
-const selectedIndexes = shuffledIndexes.slice(0, GAME_SIZE);
-const gameQuestions = selectedIndexes.map(index => questions[index]);
-
-let currentQuestionIndex = 0;
-let score = 0;
-
-// DOM elements
-const questionElement = document.getElementById("question");
-const optionsContainer = document.getElementById("options-container");
-const nextButton = document.getElementById("next-button");
-const resultContainer = document.getElementById("result-container");
-const scoreElement = document.getElementById("score");
-
-// select an option
 function selectOption(element, option) {
     const currentQuestion = gameQuestions[currentQuestionIndex];
     const isCorrect = option === currentQuestion.answer;
@@ -104,19 +99,9 @@ function selectOption(element, option) {
     nextButton.disabled = false;
 }
 
-// show result
-function showResult() {
-    questionElement.textContent = "Fim do jogo!";
-    optionsContainer.innerHTML = "";
-    nextButton.style.display = "none";
-    resultContainer.style.display = "block";
-    scoreElement.textContent = `Você acertou ${score} de ${GAME_SIZE} perguntas!`;
-}
-
-// load question
 function loadQuestion() {
     const currentQuestion = gameQuestions[currentQuestionIndex];
-    questionElement.textContent = currentQuestion.question;
+    questionContainer.textContent = currentQuestion.question;
     optionsContainer.innerHTML = "";
     nextButton.disabled = true;
 
@@ -129,7 +114,14 @@ function loadQuestion() {
     });
 }
 
-// next question
+function showResult() {
+    questionContainer.textContent = "Fim do jogo!";
+    optionsContainer.innerHTML = "";
+    nextButton.style.display = "none";
+    scoreContainer.style.display = "block";
+    scoreElement.textContent = `Você acertou ${score} de ${totalQuestions} perguntas!`;
+}
+
 function nextQuestion() {
     currentQuestionIndex++;
 
@@ -140,15 +132,28 @@ function nextQuestion() {
     }
 }
 
-// initialize the game
 function startGame() {
-    currentQuestionIndex = 0;
-    score = 0;
-    resultContainer.style.display = "none";
+    const shuffledIndexes = generateShuffledIndexes(questions.length);
+    const selectedIndexes = shuffledIndexes.slice(0, totalQuestions);
+    nextButton.style.display = "";
+    gameQuestions = selectedIndexes.map(index => questions[index]);
+
     loadQuestion();
 }
 
+startButton.addEventListener("click", () => {
+    totalQuestions = parseInt(questionCountSelect.value); 
+    currentQuestionIndex = 0; 
+    score = 0; 
+    scoreContainer.style.display = "none"; 
+    gameContainer.style.display = "block"; 
+    startButton.style.backgroundColor = '#f44336';
+    startButton.style.color = 'white'; 
+    startButton.textContent = 'Recomeçar';
+
+    startGame();
+});
+
 nextButton.addEventListener("click", nextQuestion);
 
-// start the game
 startGame();
