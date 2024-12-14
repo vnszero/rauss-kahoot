@@ -23,7 +23,8 @@ const questions = [
      { question: "Quem foi o primeiro Coordenador Musical não fundador?", options: ["Pablo", "Obi", "Frodo", "Gaby"], answer: "Frodo" },
      { question: "Quem é a mascote oficial da RaussTuna?", options: ["Lobo Rauss", "Ovelha Rauss", "Cordeiro Rauss", "Raposa Rauss"], answer: "Lobo Rauss" },
      { question: "Quem foi o primeiro PCV mulher?", options: ["Gina", "Caxias", "Pirata Pimba", "Monchica"], answer: "Caxias" },
-     
+     { question: "Quem são os veteranos conselheiros?", options: ["Preto, Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas", "Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas", "Preto, Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas", "Preto, Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor"], answer: "Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas" },
+
      // festivals and awards
      { question: "Qual foi o primeiro festival em que a RaussTuna participou?", options: ["Aveiro", "Arcos de Valdevez", "Seia", "Figueira da Foz"], answer: "Seia" },
      { question: "Quantos prêmios de Melhor Tuna a RaussTuna já ganhou?", options: ["10", "15", "8", "12"], answer: "12" },
@@ -33,7 +34,8 @@ const questions = [
      { question: "Qual prêmio a RaussTuna ganhou mais vezes?", options: ["Pandeireta", "Porta-Estandarte", "Serenata", "Solista"], answer: "Porta-Estandarte" },
      { question: "Quantos prêmios de Pandeireta foram ganhos?", options: ["10", "5", "8", "12"], answer: "5" },
      { question: "Em que festival a RaussTuna ganhou 5 prêmios pela primeira vez?", options: ["Arcos de Valdevez", "Seia", "Figueira da Foz", "Gouveia"], answer: "Seia" },
-     
+     { question: "Quantas audições há por ano?", options: ["1", "3", "2", "4"], answer: "2"},
+
      // digression
      { question: "Qual o local da digressão de 2015?", options: ["Albufeira", "Nazaré", "Azibo", "Costa da Caparica"], answer: "Costa da Caparica" },
      { question: "Onde foi a digressão de 2014?", options: ["Madeira", "Mindelo", "Açores", "Figueira da Foz"], answer: "Mindelo" },
