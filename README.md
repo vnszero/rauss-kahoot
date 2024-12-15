@@ -15,15 +15,15 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Resposta:** 2012
 
 - **Pergunta:** Qual é o primeiro nome da RaussTuna?
-  **Opções:** Rauss IG; Grupo IG; Tuna de Bragança; Grupo Acadêmico
+  **Opções:** Rauss IG; Grupo IG; Tuna de Bragança; Grupo Académico
   **Resposta:** Grupo IG
 
-- **Pergunta:** Quando foi oficializada a alteração para Tuna Mista?
+- **Pergunta:** Quando foi oficializada a alteração para Tuna?
   **Opções:** 29/10/09; 15/03/11; 01/01/13; 12/12/12
   **Resposta:** 12/12/12
 
 - **Pergunta:** Qual foi o local da primeira atuação?
-  **Opções:** Centro Acadêmico; Restaurante Borralho; Pólis; Casa do Obi
+  **Opções:** Centro Académico; Restaurante Borralho; Pólis; Casa do Obi
   **Resposta:** Restaurante Borralho
 
 - **Pergunta:** Onde foi a primeira atuação fora de Bragança?
@@ -38,7 +38,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** Império Geral; Identidade e Gestão; Informática de Gestão; Instituto Geral
   **Resposta:** Informática e Gestão
 
-- **Pergunta:** Quantas salas administrativas a RaussTuna teve no Centro Acadêmico?
+- **Pergunta:** Quantas salas administrativas a RaussTuna teve no Centro Académico?
   **Opções:** 2; 3; 4; 5
   **Resposta:** 3
 
@@ -47,7 +47,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Resposta:** Febres Altas, Serenata Menina, Hino do Caloiro, Sempre Bragança, A Aventura Começou
 
 - **Pergunta:** Onde foi criada a primeira música?
-  **Opções:** Bragança; Centro Acadêmico; Arcos de Valdevez; Gouveia
+  **Opções:** Bragança; Centro Académico; Arcos de Valdevez; Gouveia
   **Resposta:** Arcos de Valdevez
 
 #### Hierarquia e Membros
