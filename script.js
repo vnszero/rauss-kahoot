@@ -1,22 +1,20 @@
 let questions = [];
 
 function loadQuestionsFromFile() {
-    fetch('README.md') // Faz uma requisição para o arquivo README.md
-        .then(response => response.text()) // Converte o conteúdo para texto
+    fetch('README.md')
+        .then(response => response.text())
         .then(fileContent => {
-            // Extrai o bloco entre ÍNICIO PERGUNTAS e FIM PERGUNTAS
             const questionsBlock = fileContent.match(/### ÍNICIO PERGUNTAS\n([\s\S]*?)### FIM PERGUNTAS/);
             if (questionsBlock && questionsBlock[1]) {
                 const blockContent = questionsBlock[1];
 
-                // Regex para extrair perguntas, opções e respostas
                 const questionRegex = /- \*\*Pergunta:\*\* (.*?)\n\s*\*\*Opções:\*\* (.*?)\n\s*\*\*Resposta:\*\* (.*?)(?=\n- \*\*Pergunta:\*\*|$)/gs;
                 let match;
 
                 while ((match = questionRegex.exec(blockContent)) !== null) {
                     const question = match[1].trim();
                     const options = match[2].split(';').map(option => option.trim());
-                    const answer = match[3].trim();
+                    const answer = match[3].replace(/\n+/g, ' ').replace(/####.*$/, '').trim();
                     questions.push({ question, options, answer });
                 }
             }
@@ -24,7 +22,6 @@ function loadQuestionsFromFile() {
         .catch(error => console.error("Erro ao carregar perguntas:", error));
 }
 
-// Chama a função para carregar perguntas
 loadQuestionsFromFile();
 
 let currentQuestionIndex = 0;
