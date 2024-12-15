@@ -14,7 +14,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** 2009; 2010; 2012; 2013
   **Resposta:** 2012
 
-- **Pergunta:** Qual é o primeiro nome da RaussTuna?
+- **Pergunta:** Qual foi o primeiro nome da RaussTuna?
   **Opções:** Rauss IG; Grupo IG; Tuna de Bragança; Grupo Académico
   **Resposta:** Grupo IG
 
@@ -36,9 +36,9 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
 
 - **Pergunta:** O que significa IG no símbolo do bandolim?
   **Opções:** Império Geral; Identidade e Gestão; Informática de Gestão; Instituto Geral
-  **Resposta:** Informática e Gestão
+  **Resposta:** Informática de Gestão
 
-- **Pergunta:** Quantas salas administrativas a RaussTuna teve no Centro Académico?
+- **Pergunta:** Quantas salas administrativas a RaussTuna teve?
   **Opções:** 2; 3; 4; 5
   **Resposta:** 3
 
@@ -88,7 +88,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** Lobo Rauss; Ovelha Rauss; Cordeiro Rauss; Raposa Rauss
   **Resposta:** Lobo Rauss
 
-- **Pergunta:** Quem foi o primeiro PCV mulher?
+- **Pergunta:** Quem foi a primeira PCV mulher?
   **Opções:** Gina; Caxias; Pirata Pimba; Monchica
   **Resposta:** Caxias
 
@@ -134,7 +134,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Resposta:** 2
 
 #### Digressões
-- **Pergunta:** Qual o local da digressão de 2015?
+- **Pergunta:** Onde foi a digressão de 2015?
   **Opções:** Albufeira; Nazaré; Azibo; Costa da Caparica
   **Resposta:** Costa da Caparica
 
@@ -142,7 +142,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** Madeira; Mindelo; Açores; Figueira da Foz
   **Resposta:** Mindelo
 
-- **Pergunta:** Quantos dias dura a digressão anual?
+- **Pergunta:** Quantos dias normalmente dura a digressão anual?
   **Opções:** 7; 14; 5; 10
   **Resposta:** 10
 
