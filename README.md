@@ -14,7 +14,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** 2009; 2010; 2012; 2013
   **Resposta:** 2012
 
-- **Pergunta:** Qual era o primeiro nome da RaussTuna?
+- **Pergunta:** Qual é o primeiro nome da RaussTuna?
   **Opções:** Rauss IG; Grupo IG; Tuna de Bragança; Grupo Acadêmico
   **Resposta:** Grupo IG
 
@@ -35,7 +35,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Resposta:** Obi, Sticks, Torres
 
 - **Pergunta:** O que significa IG no símbolo do bandolim?
-  **Opções:** Império Geral; Identidade e Gestão; Informática e Gestão; Instituto Geral
+  **Opções:** Império Geral; Identidade e Gestão; Informática de Gestão; Instituto Geral
   **Resposta:** Informática e Gestão
 
 - **Pergunta:** Quantas salas administrativas a RaussTuna teve no Centro Acadêmico?
@@ -60,7 +60,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** Obi; Fausto Martins de Melo; Sticks; Pablo
   **Resposta:** Fausto Martins de Melo
 
-- **Pergunta:** Qual hierarquia era representada pelo botão azul?
+- **Pergunta:** Qual hierarquia é representada pelo botão azul?
   **Opções:** Caloiro; Criadage; Veterano; Tuno
   **Resposta:** Caloiro
 
@@ -68,7 +68,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** 8; 12; 6; 15
   **Resposta:** 6
 
-- **Pergunta:** Qual hierarquia tinha um botão preto?
+- **Pergunta:** Qual hierarquia tem um botão preto?
   **Opções:** Tuno; Caloiro; PCV; Veterano
   **Resposta:** Veterano
 
@@ -96,36 +96,36 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Opções:** Preto, Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Preto, Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Preto, Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor
   **Resposta:** Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
 
-#### Festivais e Prêmios
+#### Festivais e Prémios
 - **Pergunta:** Qual foi o primeiro festival em que a RaussTuna participou?
   **Opções:** Aveiro; Arcos de Valdevez; Seia; Figueira da Foz
   **Resposta:** Seia
 
-- **Pergunta:** Quantos prêmios de Melhor Tuna a RaussTuna já ganhou?
+- **Pergunta:** Quantos prémios de Melhor Tuna a RaussTuna já ganhou?
   **Opções:** 10; 15; 8; 12
   **Resposta:** 12
 
 - **Pergunta:** Qual o objetivo do festival Rauss&Tuna’S?
-  **Opções:** Concurso de Prêmios; Solidariedade; Atuar para a Academia; Arrecadar fundos
+  **Opções:** Concurso de Prémios; Solidariedade; Atuar para a Academia; Arrecadar fundos
   **Resposta:** Solidariedade
 
-- **Pergunta:** Quantos prêmios a RaussTuna ganhou nos festivais?
+- **Pergunta:** Quantos prémios a RaussTuna ganhou nos festivais?
   **Opções:** 120; 100; 150; 134
   **Resposta:** 134
 
-- **Pergunta:** Quantos prêmios de Serenata foram ganhos?
+- **Pergunta:** Quantos prémios de Serenata foram ganhos?
   **Opções:** 10; 8; 12; 15
   **Resposta:** 10
 
-- **Pergunta:** Qual prêmio a RaussTuna ganhou mais vezes?
+- **Pergunta:** Qual prémio a RaussTuna ganhou mais vezes?
   **Opções:** Pandeireta; Porta-Estandarte; Serenata; Solista
   **Resposta:** Porta-Estandarte
 
-- **Pergunta:** Quantos prêmios de Pandeireta foram ganhos?
+- **Pergunta:** Quantos prémios de Pandeireta foram ganhos?
   **Opções:** 10; 5; 8; 12
   **Resposta:** 5
 
-- **Pergunta:** Em que festival a RaussTuna ganhou 5 prêmios pela primeira vez?
+- **Pergunta:** Em que festival a RaussTuna ganhou 5 prémios pela primeira vez?
   **Opções:** Arcos de Valdevez; Seia; Figueira da Foz; Gouveia
   **Resposta:** Seia
 
@@ -169,7 +169,7 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
   **Resposta:** Unio, Labor et Justitia
 
 - **Pergunta:** Quem foi o primeiro nomeado Unio, Labor et Justitia?
-  **Opções:** Sticks; Obi; Major; Fausto Martins
+  **Opções:** Sticks; Obi; Major; Fausto Martins de Melo
   **Resposta:** Obi
 
 - **Pergunta:** Qual título é representado por uma medalha dourada?
