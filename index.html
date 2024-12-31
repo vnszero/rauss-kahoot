@@ -9,16 +9,30 @@
 </head>
 <body>
     <header>
-        <h1>Quiz Valores e História da RaussTuna</h1>
+        <h1>Quiz RaussTuna</h1>
         <div id="controls">
-            <label for="question-count">Número de questões:</label>
-            <select id="question-count">
-                <option value="5">5</option>
-                <option value="10" selected>10</option>
-                <option value="15">15</option>
-                <option value="25">25</option>
-                <option value="40">40</option>
-            </select>
+            <div>
+                <label for="question-category">Categoria das questões:</label>
+                <select id="question-category">
+                    <option value="0" selected>Todas</option>
+                    <option value="1">História e Origens</option>
+                    <option value="2">Hierarquia e Membros</option>
+                    <option value="3">Festivais e Prémios</option>
+                    <option value="4">Digressões</option>
+                    <option value="5">CDs e Músicas</option>
+                    <option value="6">Condecorações</option>
+                </select>
+            </div>
+            <div>
+                <label for="question-count">Número de questões:</label>
+                <select id="question-count">
+                    <option value="5">5</option>
+                    <option value="10" selected>10</option>
+                    <option value="15">15</option>
+                    <option value="25">25</option>
+                    <option value="40">40</option>
+                </select>
+            </div>
             <button id="start-button">Começar</button>
         </div>
     </header>

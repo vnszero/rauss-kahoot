@@ -1,5 +1,14 @@
 let questions = [];
 
+const categories = {
+    "1": "História e Origens",
+    "2": "Hierarquia e Membros",
+    "3": "Festivais e Prémios",
+    "4": "Digressões",
+    "5": "CDs e Músicas",
+    "6": "Condecorações"
+}
+
 function loadQuestionsFromFile() {
     fetch('README.md')
         .then(response => response.text())
@@ -46,6 +55,7 @@ const gameContainer = document.getElementById("game-container");
 const questionCountSelect = document.getElementById("question-count");
 const questionContainer = document.getElementById("question");
 const scoreContainer = document.getElementById("result-container");
+const categorySelector = document.getElementById("question-category");
 
 // update year
 document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -109,11 +119,12 @@ function loadQuestion() {
 }
 
 function showResult() {
+    const totalAnsweredQuestions = gameQuestions.length;
     questionContainer.textContent = "Fim do jogo!";
     optionsContainer.innerHTML = "";
     nextButton.style.display = "none";
     scoreContainer.style.display = "block";
-    scoreElement.textContent = `Você acertou ${score} de ${totalQuestions} perguntas!`;
+    scoreElement.textContent = `Você acertou ${score} de ${totalAnsweredQuestions} perguntas!`;
 }
 
 function nextQuestion() {
@@ -127,11 +138,29 @@ function nextQuestion() {
 }
 
 function startGame() {
-    const shuffledIndexes = generateShuffledIndexes(questions.length);
-    const selectedIndexes = shuffledIndexes.slice(0, totalQuestions);
-    nextButton.style.display = "";
-    gameQuestions = selectedIndexes.map(index => questions[index]);
+    const selectedCategory = categorySelector.value;
+    let filteredQuestions;
 
+    if (selectedCategory === "0") {
+        // Todas as categorias, selecione perguntas aleatórias
+        const shuffledIndexes = generateShuffledIndexes(questions.length);
+        const totalQuestions = parseInt(questionCountSelect.value, 10);
+        const selectedIndexes = shuffledIndexes.slice(0, totalQuestions);
+        filteredQuestions = selectedIndexes.map(index => questions[index]);
+    } else {
+        // Filtrar perguntas pela categoria selecionada
+        const categoryName = categories[selectedCategory];
+        filteredQuestions = questions.filter(q => q.category === categoryName);
+
+        // Usar todas as perguntas da categoria embaralhadas
+        const shuffledIndexes = generateShuffledIndexes(filteredQuestions.length);
+        filteredQuestions = shuffledIndexes.map(index => filteredQuestions[index]);
+    }
+
+    // Configurar as perguntas do jogo
+    nextButton.style.display = "";
+    gameQuestions = filteredQuestions;
+    currentQuestionIndex = 0;
     loadQuestion();
 }
 
@@ -151,6 +180,18 @@ startButton.addEventListener("click", () => {
 });
 
 nextButton.addEventListener("click", nextQuestion);
+
+categorySelector.addEventListener("change", () => {
+    const selectedCategory = categorySelector.value;
+
+    if (selectedCategory === "0") {
+        // Habilitar o seletor de número de questões
+        questionCountSelect.disabled = false;
+    } else {
+        // Desabilitar o seletor de número de questões
+        questionCountSelect.disabled = true;
+    }
+});
 
 document.addEventListener("keydown", (event) => {
     // game could not be started to show easter egg
