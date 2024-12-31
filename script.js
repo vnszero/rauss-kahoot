@@ -142,22 +142,22 @@ function startGame() {
     let filteredQuestions;
 
     if (selectedCategory === "0") {
-        // Todas as categorias, selecione perguntas aleatórias
+        // all categories, shuffle per question game size
         const shuffledIndexes = generateShuffledIndexes(questions.length);
         const totalQuestions = parseInt(questionCountSelect.value, 10);
         const selectedIndexes = shuffledIndexes.slice(0, totalQuestions);
         filteredQuestions = selectedIndexes.map(index => questions[index]);
     } else {
-        // Filtrar perguntas pela categoria selecionada
+        // questions must be filtered by choosen category
         const categoryName = categories[selectedCategory];
         filteredQuestions = questions.filter(q => q.category === categoryName);
 
-        // Usar todas as perguntas da categoria embaralhadas
+        // shuffle all questions for that category
         const shuffledIndexes = generateShuffledIndexes(filteredQuestions.length);
         filteredQuestions = shuffledIndexes.map(index => filteredQuestions[index]);
     }
 
-    // Configurar as perguntas do jogo
+    // config game questions
     nextButton.style.display = "";
     gameQuestions = filteredQuestions;
     currentQuestionIndex = 0;
@@ -185,10 +185,10 @@ categorySelector.addEventListener("change", () => {
     const selectedCategory = categorySelector.value;
 
     if (selectedCategory === "0") {
-        // Habilitar o seletor de número de questões
+        // activate number of questions selector
         questionCountSelect.disabled = false;
     } else {
-        // Desabilitar o seletor de número de questões
+        // disable number of questions selector
         questionCountSelect.disabled = true;
     }
 });
