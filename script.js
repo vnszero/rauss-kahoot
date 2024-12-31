@@ -6,17 +6,21 @@ function loadQuestionsFromFile() {
         .then(fileContent => {
             const questionsBlock = fileContent.match(/### ÍNICIO PERGUNTAS\n([\s\S]*?)### FIM PERGUNTAS/);
             if (questionsBlock && questionsBlock[1]) {
-                const blockContent = questionsBlock[1];
+                const blockContent = questionsBlock[1].trim();
 
-                const questionRegex = /- \*\*Pergunta:\*\* (.*?)\n\s*\*\*Opções:\*\* (.*?)\n\s*\*\*Resposta:\*\* (.*?)(?=\n- \*\*Pergunta:\*\*|$)/gs;
-                let match;
+                // remover header and empty rows
+                const lines = blockContent.split('\n').filter(line => line.trim() !== '').slice(1);
 
-                while ((match = questionRegex.exec(blockContent)) !== null) {
-                    const question = match[1].trim();
-                    const options = match[2].split(';').map(option => option.trim());
-                    const answer = match[3].replace(/\n+/g, ' ').replace(/####.*$/, '').trim();
-                    questions.push({ question, options, answer });
-                }
+                lines.forEach(line => {
+                    const [category, question, options, answer] = line.split('|').map(item => item.trim());
+                    const optionsArray = options.split(';').map(option => option.trim());
+                    questions.push({
+                        category,
+                        question,
+                        options: optionsArray,
+                        answer
+                    });
+                });
             }
         })
         .catch(error => console.error("Erro ao carregar perguntas:", error));
