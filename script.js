@@ -13,7 +13,7 @@ function loadQuestionsFromFile() {
     fetch('README.md')
         .then(response => response.text())
         .then(fileContent => {
-            const questionsBlock = fileContent.match(/### ÍNICIO PERGUNTAS\n([\s\S]*?)### FIM PERGUNTAS/);
+            const questionsBlock = fileContent.match(/### INÍCIO PERGUNTAS\n([\s\S]*?)### FIM PERGUNTAS/);
             if (questionsBlock && questionsBlock[1]) {
                 const blockContent = questionsBlock[1].trim();
 

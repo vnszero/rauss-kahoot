@@ -6,7 +6,7 @@ Este é um projeto de quiz interativo com perguntas sobre a RaussTuna, desenvolv
 
 Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você quiser contribuir com mais perguntas ou correções, por favor siga as instruções na seção [Como Contribuir](#como-contribuir).
 
-### ÍNICIO PERGUNTAS
+### INÍCIO PERGUNTAS
 
 Categoria| Pergunta| Opções| Resposta
 
