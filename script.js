@@ -40,7 +40,6 @@ loadQuestionsFromFile();
 let currentQuestionIndex = 0;
 let score = 0;
 let totalQuestions = 5;
-let easterEggSequence = ["ArrowLeft", "ArrowDown", "ArrowRight", "ArrowDown", "ArrowLeft"];
 let currentInputIndex = 0;
 let gameStarted = false;
 
@@ -175,6 +174,7 @@ startButton.addEventListener("click", () => {
     startButton.textContent = 'Recomeçar';
     gameStarted = true;
     document.getElementById('easter-egg').style.display = "none";
+    document.getElementById('easter-egg-input').style.display = "none";
 
     startGame();
 });
@@ -193,19 +193,40 @@ categorySelector.addEventListener("change", () => {
     }
 });
 
-document.addEventListener("keydown", (event) => {
-    // game could not be started to show easter egg
+function activateEasterEgg() {
+    document.getElementById("easter-egg").style.display = "block";
+    alert("Easter Egg Desbloqueado! Veja os autores do projeto.");
+}
+
+// Função para verificar o código do easter egg
+function checkEasterEggCode() {
+    const codeInput = document.getElementById("easter-egg-code");
+    if (codeInput.value === "0000FF") {
+        activateEasterEgg();
+        codeInput.value = ""; // Limpa o campo de entrada
+    } else {
+        alert("Código incorreto! Tente novamente.");
+        codeInput.value = ""; // Limpa o campo de entrada
+    }
+}
+
+// Adiciona o evento de duplo toque para mostrar o campo de código
+let touchTimeout;
+document.addEventListener("touchstart", () => {
     if (!gameStarted) {
-        if (event.key === easterEggSequence[currentInputIndex]) {
-            currentInputIndex++;
-            if (currentInputIndex === easterEggSequence.length) {
-                // correct sequence detected
-                document.getElementById("easter-egg").style.display = "block";
-                alert("Easter Egg Desbloqueado! Veja os autores do projeto.");
-                currentInputIndex = 0;
-            }
+        if (touchTimeout) {
+            // Duplo toque detectado
+            clearTimeout(touchTimeout);
+            touchTimeout = null;
+
+            // Exibe o input para o código do easter egg
+            const codeContainer = document.getElementById("easter-egg-input");
+            codeContainer.style.display = "block";
         } else {
-            currentInputIndex = 0; // wrong sequence
+            // Primeiro toque
+            touchTimeout = setTimeout(() => {
+                touchTimeout = null; // Reseta após o timeout
+            }, 300);
         }
     }
 });

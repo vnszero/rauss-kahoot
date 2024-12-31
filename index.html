@@ -46,12 +46,17 @@
         <button id="next-button" disabled>Próxima Pergunta</button>
     </div>
 
+    <div id="easter-egg-input" style="display: none; text-align: center; margin-top: 20px;">
+        <p>Insira o código para desbloquear o easter egg:</p>
+        <input type="text" id="easter-egg-code" placeholder="Digite o código aqui" style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+        <button onclick="checkEasterEggCode()" style="padding: 5px 10px; border-radius: 5px; background-color: #007BFF; color: white; border: none; cursor: pointer;">Submeter</button>
+    </div> 
     <div id="easter-egg" style="display: none;">
         <h2>Créditos</h2>
         <p>Laura "Açorda" Raposo</p>
         <p>Sílvia "Khalifa" Góis</p>
         <p>Vinícius "Breve" Silva</p>
-    </div>    
+    </div>   
 
     <footer>
         <p>RaussTuna &copy; <span id="current-year"></span></p>

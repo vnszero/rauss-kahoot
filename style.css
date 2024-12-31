@@ -156,6 +156,33 @@ header h1 {
     color: #333;
 }
 
+#easter-egg-input {
+    display: none;
+    text-align: center;
+}
+
+#easter-egg-input input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 300px;
+}
+
+#easter-egg-input button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#easter-egg-input button:hover {
+    background-color: #0056b3;
+}
+
 #easter-egg {
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
