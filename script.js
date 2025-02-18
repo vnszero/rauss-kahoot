@@ -6,7 +6,8 @@ const categories = {
     "3": "Festivais e Prémios",
     "4": "Digressões",
     "5": "CDs e Músicas",
-    "6": "Condecorações"
+    "6": "Condecorações",
+    "7": "Cargos, Funções e Normas"
 }
 
 function loadQuestionsFromFile() {

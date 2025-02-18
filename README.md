@@ -90,6 +90,14 @@ Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia?| Sticks; O
 
 Condecorações| Qual título é representado por uma medalha dourada?| Veterano Nomeado; Mestre; Tuno; Honoris Causa| Honoris Causa
 
+Cargos, Funções e Normas| A direção é constituida por cinco membros, quem são?| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal; Magister, Vice-Magister, Adjunto, Auxiliar e Tesoureiro; Magister, Vice-Magister, Gestor de Recursos, Secretário e Vogal; Magister, Vice-Magister, Auxiliar, Gestor de Recursos e Secretário| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal
+
+Cargos, Funções e Normas| Quem são os membros do Conselho Fiscal?| Presidente e Relator; Presidente, Secretário e Vogal; Presidente, Secretário e Relator; Presidente, Secretário, Relator e Tesoureiro| Presidente, Secretário e Relator
+
+Cargos, Funções e Normas| Quais são as partes que formam o Livro de Documentos Normativos?| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas; Estatutos, Regulamento Geral, Regulamento Formal, Protocolo Interno, Regulamento Rauss&Tunas; Fundamentos, Regulamento Geral, Regulamento Eleitoral, Protocolo Normativos, Regulamento Rauss&Tunas; Fundamentos, Regulamento Interno, Regulamento Formal, Protocolo Normativos, Regulamento Rauss&Tunas|Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas
+
+Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, Direção e Conselho Fiscal; Conselho Administrativo, Direção e Coordenação Musical; Assembleia Geral, Direção e Conselho de Veteranos; Conselho de Veteranos, Assembleia Geral e Conselho Fiscal| Assembleia Geral, Direção e Conselho Fiscal
+
 ### FIM PERGUNTAS
 
 ## Como Contribuir
