@@ -56,9 +56,16 @@ const questionCountSelect = document.getElementById("question-count");
 const questionContainer = document.getElementById("question");
 const scoreContainer = document.getElementById("result-container");
 const categorySelector = document.getElementById("question-category");
+const modeSelector = document.getElementById("mode");
+const footer = document.getElementById("footer");
 
 // update year
 document.getElementById('current-year').textContent = new Date().getFullYear();
+
+// create element
+const listContainer = document.createElement("div");
+listContainer.id = "list-container";
+document.body.insertBefore(listContainer, document.getElementById("game-container"));
 
 // function to generate a vector of random numbers between 0 and number of questions - 1
 function generateShuffledIndexes(size) {
@@ -229,5 +236,42 @@ document.addEventListener("touchstart", () => {
                 touchTimeout = null; // Reseta após o timeout
             }, 300);
         }
+    }
+});
+
+function showQuestionList() {
+    listContainer.innerHTML = "";
+    const selectedCategory = categorySelector.value;
+    let filteredQuestions;
+
+    if (selectedCategory === "0") {
+        filteredQuestions = questions;
+    } else {
+        const categoryName = categories[selectedCategory];
+        filteredQuestions = questions.filter(q => q.category === categoryName);
+    }
+
+    const listElement = document.createElement("ul");
+    listElement.classList.add("question-list");
+
+    filteredQuestions.forEach(q => {
+        const listItem = document.createElement("li");
+        listItem.classList.add("question-item");
+        listItem.innerHTML = `<strong>${q.question}</strong><br>Resposta correta: ${q.answer}`;
+        listElement.appendChild(listItem);
+    });
+    listContainer.appendChild(listElement);
+}
+
+modeSelector.addEventListener("change", () => {
+    if (modeSelector.value === "1") {
+        gameContainer.style.display = "none";
+        listContainer.style.display = "block";
+        footer.style.position = "relative";
+        showQuestionList();
+    } else {
+        gameContainer.style.display = "block";
+        listContainer.style.display = "none";
+        footer.style.position = "fixed";
     }
 });

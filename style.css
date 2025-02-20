@@ -140,6 +140,19 @@ header h1 {
     color: white;
 }
 
+.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-item {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 #result-container {
     background-color: #f1f1f1;
     border-radius: 10px;
@@ -200,9 +213,26 @@ header h1 {
     margin-bottom: 10px;
 }
 
+#list-container {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+#list-container li {
+    margin: 15px 0px;
+}
+
 footer {
     background-color: #222;
     bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     color: white;
     font-size: 14px;
     margin: 0;
@@ -210,7 +240,6 @@ footer {
     position: fixed;
     text-align: center;
     width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer span {
