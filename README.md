@@ -30,9 +30,21 @@ História e Origens| Quais foram os primeiros cinco originais da RaussTuna?| Feb
 
 História e Origens| Onde foi criada a primeira música?| Bragança; Centro Académico; Arcos de Valdevez; Gouveia| Arcos de Valdevez
 
+História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5; 10| 10
+
+História e Origens| Quantos honorários tem a RaussTuna| 11; 7; 8; 9| 11
+
+História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança? | Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss
+
 Hierarquia e Membros| O que significa PCV?| Padrinho do Conselho de Veteranos; Presidente Coordenador de Veteranos; Padrinho Coordenador de Veteranos; Presidente do Conselho de Veteranos| Presidente do Conselho de Veteranos
 
 Hierarquia e Membros| Quem foi o primeiro PCV não fundador?| Obi; Fausto Martins de Melo; Sticks; Pablo| Fausto Martins de Melo
+
+Hierarquia e Membros| Quem foi o primeiro PCV da tuna?| Duque; Hóstias; Obi; Torres| Hóstias
+
+Hierarquia e Membros| Quem são por ordem os 5 primeiros fundadores? | Obi, Sticks, Conde, Major, Oscar; Peito de Rola, Stuart, Lulu, Conde, Pimpolho; Stuart, Peito de Rola, Lulu, Conde, Pimpolho; Stuart, Pimpolho, Peito de Rola, Lulu, Conde | Stuart, Peito de Rola, Lulu, Conde, Pimpolho
+
+Hierarquia e Membros| Quem foi o primeiro Presidente da Mesa da Assembleia Geral?| DeBorla; Major; Obi; Oscar| Major
 
 Hierarquia e Membros| Qual hierarquia é representada pelo botão azul?| Caloiro; Criadage; Veterano; Tuno| Caloiro
 
@@ -40,9 +52,13 @@ Hierarquia e Membros| Quantos votos têm os Tunos na Reunião das Côrtes?| 8; 1
 
 Hierarquia e Membros| Qual hierarquia tem um botão preto?| Tuno; Caloiro; PCV; Veterano| Veterano
 
+Hierarquia e Membros| Qual é a ordem praxística?| PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, CA, Veteranos, Tunos; PCV, Ordem Honorífica, CV, Membros com Títulos Honoríficos, CA, Veteranos, Tunos; PCV, Ordem Honorífica, CA, Membros com Títulos Honoríficos, CV, Veteranos, Tunos; PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, Veteranos, CA, Tunos | PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, CA, Veteranos, Tunos
+
 Hierarquia e Membros| Quem foi o primeiro Veterano não fundador?| Obi; Fausto Martins de Melo; Pablo; Caxias| Fausto Martins de Melo
 
 Hierarquia e Membros| Quem foi a primeira Magíster mulher?| Gata Brava; Pirata Pimba; Gina; Pauliteira| Gina
+
+Hierarquia e Membros| Quem são os veteranos nomeados atuais?| Primo, Saavedra, Louco; Primo, Saavedra, Hóstias; Primo, Saavedra, Louco, Torres; Primo, Saavedra, Torres| Primo, Saavedra, Louco
 
 Hierarquia e Membros| Quem foi o primeiro Coordenador Musical não fundador?| Pablo; Obi; Frodo; Gaby| Frodo
 
@@ -50,7 +66,15 @@ Hierarquia e Membros| Quem é a mascote oficial da RaussTuna?| Lobo Rauss; Ovelh
 
 Hierarquia e Membros| Quem foi a primeira PCV mulher?| Gina; Caxias; Pirata Pimba; Monchica| Caxias
 
+Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a caloiro?| Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Aventura Começou; Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Tuna!; Abertura da noite, Padrinho, Nomeação, Entrega do Botão, A Aventura Começou; Abertura da noite, Padrinho, Nomeação, Entrega do Botão, A Tuna! | Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Aventura Começou
+
+Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a Veterano?| Abertura da noite, entrega do botão, nomeação, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, A Tuna!; Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Sempre Bragança| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança
+
+Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Presidente da Ordem; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical
+
 Hierarquia e Membros| Quem são os veteranos conselheiros?| Preto, Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Preto, Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Preto, Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
+
+Hierarquia e Membros| Quem é a Ordem?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia
 
@@ -70,12 +94,6 @@ Festivais e Prémios| Em que festival a RaussTuna ganhou 5 prémios pela primeir
 
 Festivais e Prémios| Quantas audições há por ano?| 1; 3; 2; 4| 2
 
-Digressões| Onde foi a digressão de 2015?| Albufeira; Nazaré; Azibo; Costa da Caparica| Costa da Caparica
-
-Digressões| Onde foi a digressão de 2014?| Madeira; Mindelo; Açores; Figueira da Foz| Mindelo
-
-Digressões| Quantos dias normalmente dura a digressão anual?| 7; 14; 5; 10| 10
-
 CDs e Músicas| Qual é o nome do CD lançado em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna; A TUNA!| Vencer
 
 CDs e Músicas| Quantas músicas originais foram lançadas no primeiro CD?| 12; 10; 15; 8| 12
@@ -88,7 +106,11 @@ Condecorações| Qual é a condecoração mais alta da RaussTuna?| Medalha de M�
 
 Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia?| Sticks; Obi; Major; Fausto Martins de Melo| Obi
 
-Condecorações| Qual título é representado por uma medalha dourada?| Veterano Nomeado; Mestre; Tuno; Honoris Causa| Honoris Causa
+Condecorações| Qual título é representado por uma melhada de cordão amarelo e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Mestre; Honorário| Honoris Causa
+
+Condecorações| Qual título é representado por uma medalha de cordão prateado e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Honorário
+
+Condecorações| Qual título é representado por uma medalha de cordão branco e azul?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Unio, Labor et Justitia - José Adriano
 
 Cargos, Funções e Normas| A direção é constituida por cinco membros, quem são?| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal; Magister, Vice-Magister, Adjunto, Auxiliar e Tesoureiro; Magister, Vice-Magister, Gestor de Recursos, Secretário e Vogal; Magister, Vice-Magister, Auxiliar, Gestor de Recursos e Secretário| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal
 
@@ -97,6 +119,30 @@ Cargos, Funções e Normas| Quem são os membros do Conselho Fiscal?| Presidente
 Cargos, Funções e Normas| Quais são as partes que formam o Livro de Documentos Normativos?| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas; Estatutos, Regulamento Geral, Regulamento Formal, Protocolo Interno, Regulamento Rauss&Tunas; Fundamentos, Regulamento Geral, Regulamento Eleitoral, Protocolo Normativos, Regulamento Rauss&Tunas; Fundamentos, Regulamento Interno, Regulamento Formal, Protocolo Normativos, Regulamento Rauss&Tunas|Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas
 
 Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, Direção e Conselho Fiscal; Conselho Administrativo, Direção e Coordenação Musical; Assembleia Geral, Direção e Conselho de Veteranos; Conselho de Veteranos, Assembleia Geral e Conselho Fiscal| Assembleia Geral, Direção e Conselho Fiscal
+
+Cargos, Funções e Normas| Qual é a 2ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Regulamento Interno
+
+Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1, 2, 3, 4| 2
+
+Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA, CV, Ordem, Gerente do Bar| CV
+
+Cargos, Funções e Normas| Qual é a 4ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Protocolo Interno
+
+Cargos, Funções e Normas| Quais são as refeições da tuna em que nos sentamos de forma diferente?| Jantar de gala, jantar de aniversário; Jantar de gala, jantar de aniversário e jantar de indigitação; Jantar de indigitação, jantar de aniversário e jantar de tomada de posse; Jantar de indigitação, jantar de tomada de posse| Jantar de gala, jantar de aniversário e jantar de indigitação
+
+Cargos, Funções e Normas| Quanto é que a direção transfere para o bar da RaussTuna no início do ano?| 250; 300; 350; 400 | 400
+
+Cargos, Funções e Normas| Quando é realizado o juramento de tuna?| Aniversário; Digressão; Tomada de Posse; Ceia de Natal | Aniversário
+
+Cargos, Funções e Normas| Quantas equipas funcionais existem na tuna?| 10; 11; 8; 9 | 9
+
+Cargos, Funções e Normas| Em que mês é o Relatório de Contas?| Julho; Maio; Outubro; Setembro | Setembro
+
+Cargos, Funções e Normas| Qual é a ordem de sucessão do chapéu de Magister?| Magister, Vice-Magister; Magister, Vice-Magister, Tesoureiro; Magister, Vice-Magister, Tesoureiro, Secretário; Magister, Vice-Magister, Tesoureiro, Secretário, Vogal | Magister, Vice-Magister
+
+Cargos, Funções e Normas| Qual é o documento que se envia para pedir uma carrinha para ir a uma viagem?| Carta de requisição; Ofício; Pedido oficial; Requerimento | Ofício
+
+Cargos, Funções e Normas| Quais são os cargos que não podem ter uma pasta em simultâneo?| CA, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, Conselho Fiscal; CA, Tesoureiro, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, PResidente Assembleia | CA, Tesoureiro, Conselho Fiscal, Presidente Assembleia
 
 ### FIM PERGUNTAS
 

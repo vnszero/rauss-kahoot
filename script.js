@@ -4,7 +4,7 @@ const categories = {
     "1": "História e Origens",
     "2": "Hierarquia e Membros",
     "3": "Festivais e Prémios",
-    "4": "Digressões",
+    // "4": "",
     "5": "CDs e Músicas",
     "6": "Condecorações",
     "7": "Cargos, Funções e Normas"
