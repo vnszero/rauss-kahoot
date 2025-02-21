@@ -94,7 +94,13 @@ Festivais e Prémios| Em que festival a RaussTuna ganhou 5 prémios pela primeir
 
 Festivais e Prémios| Quantas audições há por ano?| 1; 3; 2; 4| 2
 
-CDs e Músicas| Qual é o nome do CD lançado em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna; A TUNA!| Vencer
+CDs e Músicas| Qual é o nome do CD lançado em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Vencer
+
+CDs e Músicas| Qual é o nome do primeiro álbum lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tunamente Mistos
+
+CDs e Músicas| Qual é o nome do primeiro DVD lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tuna+Tuna, Um Festival de Duetos
+
+CDs e Músicas| Qual é o nome do segundo CD lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| A TUNA! Uma Década de Histórias
 
 CDs e Músicas| Quantas músicas originais foram lançadas no primeiro CD?| 12; 10; 15; 8| 12
 
