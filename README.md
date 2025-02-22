@@ -10,11 +10,9 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
 
 Categoria| Pergunta| Opções| Resposta
 
-História e Origens| Onde foi o primeiro nome da RaussTuna?| Rauss IG; Grupo IG; Tuna de Bragança; Grupo Académico| Grupo IG
+História e Origens| Qual foi o primeiro nome da RaussTuna?| Rauss IG; Grupo de Cantares; Tuna de Bragança; Grupo Académico| Grupo de Cantares
 
-História e Origens| Em que ano foi fundada a RaussTuna?| 2009; 2010; 2012; 2013| 2012
-
-História e Origens| Em que ano foi fundado o Grupo de Cantares?| 2009; 2010; 2012; 2013| 2009
+História e Origens| Em que ano foi fundado o Grupo de Cantares e a RaussTuna?| 2009 e 2012; 2009 e 2011; 2010 e 2012; 2010 e 2013| 2009 e 2012
 
 História e Origens| Quando foi oficializada a alteração para Tuna?| 29/10/09; 15/03/11; 01/01/13; 12/12/12| 12/12/12
 
