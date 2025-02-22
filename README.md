@@ -72,7 +72,7 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a V
 
 Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical
 
-Hierarquia e Membros| Quem são os veteranos conselheiros?| Preto, Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Preto, Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Preto, Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
+Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
 
 Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres
 
@@ -94,7 +94,7 @@ Festivais e Prémios| Em que festival a RaussTuna ganhou 5 prémios pela primeir
 
 Festivais e Prémios| Quantas audições há por ano?| 1; 3; 2; 4| 2
 
-CDs e Músicas| Qual é o nome do terceiro álbum lançado pela RaussTuna em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Vencer
+CDs e Músicas| Qual é o nome do quarto álbum lançado pela RaussTuna em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Vencer
 
 CDs e Músicas| Qual é o nome do primeiro álbum lançado pela RaussTuna em 2013?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tunamente Mistos
 
