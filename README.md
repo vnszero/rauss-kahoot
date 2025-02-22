@@ -10,13 +10,15 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
 
 Categoria| Pergunta| Opções| Resposta
 
-História e Origens| Qual foi o primeiro nome da RaussTuna?| Rauss IG; Grupo IG; Tuna de Bragança; Grupo Académico| Grupo IG
+História e Origens| Onde foi o primeiro nome da RaussTuna?| Rauss IG; Grupo IG; Tuna de Bragança; Grupo Académico| Grupo IG
 
 História e Origens| Em que ano foi fundada a RaussTuna?| 2009; 2010; 2012; 2013| 2012
 
+História e Origens| Em que ano foi fundado o Grupo de Cantares?| 2009; 2010; 2012; 2013| 2009
+
 História e Origens| Quando foi oficializada a alteração para Tuna?| 29/10/09; 15/03/11; 01/01/13; 12/12/12| 12/12/12
 
-História e Origens| Qual foi o local da primeira atuação?| Centro Académico; Restaurante Borralho; Pólis; Casa do Obi| Restaurante Borralho
+História e Origens| Qual foi o local da primeira atuação?| Centro Académico; Jantar do Curso IG; Anfiteatro; Nerba| Jantar do Curso IG
 
 História e Origens| Onde foi a primeira atuação fora de Bragança?| Arcos de Valdevez; Seia; Gouveia; Aveiro| Arcos de Valdevez
 
@@ -28,11 +30,11 @@ História e Origens| Quantas salas administrativas a RaussTuna teve?| 2; 3; 4; 5
 
 História e Origens| Quais foram os primeiros cinco originais da RaussTuna?| Febres Altas, Serenata Menina, Hino do Caloiro, Sempre Bragança, A Aventura Começou; Sempre Bragança, Hino do Caloiro, Febres Altas, A Tuna!, Serenata Menina; Febres Altas, A Tuna!, A Aventura Começou, Azevinho, Lua Feiticeira; Azevinho, Febres Altas, Hino do Caloiro, Hino da RaussTuna, Lua Feiticeira| Febres Altas, Serenata Menina, Hino do Caloiro, Sempre Bragança, A Aventura Começou
 
-História e Origens| Onde foi criada a primeira música?| Bragança; Centro Académico; Arcos de Valdevez; Gouveia| Arcos de Valdevez
+História e Origens| Onde foi criada a primeira música?| Bragança; Centro Académico; 1ª saída de Bragança; Gouveia| 1ª saída de Bragança
 
 História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5; 10| 10
 
-História e Origens| Quantos honorários tem a RaussTuna| 11; 7; 8; 9| 11
+História e Origens| Quantos honorários tem a RaussTuna| 13; 11; 8; 9| 13
 
 História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança? | Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss
 
@@ -42,7 +44,7 @@ Hierarquia e Membros| Quem foi o primeiro PCV não fundador?| Obi; Fausto Martin
 
 Hierarquia e Membros| Quem foi o primeiro PCV da tuna?| Duque; Hóstias; Obi; Torres| Hóstias
 
-Hierarquia e Membros| Quem são por ordem os 5 primeiros fundadores? | Obi, Sticks, Conde, Major, Oscar; Peito de Rola, Stuart, Lulu, Conde, Pimpolho; Stuart, Peito de Rola, Lulu, Conde, Pimpolho; Stuart, Pimpolho, Peito de Rola, Lulu, Conde | Stuart, Peito de Rola, Lulu, Conde, Pimpolho
+Hierarquia e Membros| Quem são por ordem os 5 primeiros fundadores em nomes antigos? | Obi, Sticks, Conde, Major, Oscar; Peito de Rola, Stuart, Lulu, Conde, Pimpolho; Stuart, Peito de Rola, Lulu, Conde, Pimpolho; Stuart, Pimpolho, Peito de Rola, Lulu, Conde | Stuart, Peito de Rola, Lulu, Conde, Pimpolho
 
 Hierarquia e Membros| Quem foi o primeiro Presidente da Mesa da Assembleia Geral?| DeBorla; Major; Obi; Oscar| Major
 
@@ -58,7 +60,7 @@ Hierarquia e Membros| Quem foi o primeiro Veterano não fundador?| Obi; Fausto M
 
 Hierarquia e Membros| Quem foi a primeira Magíster mulher?| Gata Brava; Pirata Pimba; Gina; Pauliteira| Gina
 
-Hierarquia e Membros| Quem são os veteranos nomeados atuais?| Primo, Saavedra, Louco; Primo, Saavedra, Hóstias; Primo, Saavedra, Louco, Torres; Primo, Saavedra, Torres| Primo, Saavedra, Louco
+Hierarquia e Membros| Quem são os veteranos nomeados atuais?| Primo, Saavedra, Louco, Azul, Fadista; Primo, Saavedra, Hóstias; Primo, Saavedra, Louco, Torres, Fadista; Primo, Saavedra, Torres| Primo, Saavedra, Louco, Azul, Fadista
 
 Hierarquia e Membros| Quem foi o primeiro Coordenador Musical não fundador?| Pablo; Obi; Frodo; Gaby| Frodo
 
@@ -70,11 +72,11 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a c
 
 Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a Veterano?| Abertura da noite, entrega do botão, nomeação, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, A Tuna!; Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Sempre Bragança| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança
 
-Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Presidente da Ordem; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical
+Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical
 
 Hierarquia e Membros| Quem são os veteranos conselheiros?| Preto, Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Preto, Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Preto, Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Preto, Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
 
-Hierarquia e Membros| Quem é a Ordem?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa
+Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia
 
@@ -94,13 +96,13 @@ Festivais e Prémios| Em que festival a RaussTuna ganhou 5 prémios pela primeir
 
 Festivais e Prémios| Quantas audições há por ano?| 1; 3; 2; 4| 2
 
-CDs e Músicas| Qual é o nome do CD lançado em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Vencer
+CDs e Músicas| Qual é o nome do terceiro álbum lançado pela RaussTuna em 2024?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Vencer
 
-CDs e Músicas| Qual é o nome do primeiro álbum lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tunamente Mistos
+CDs e Músicas| Qual é o nome do primeiro álbum lançado pela RaussTuna em 2013?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tunamente Mistos
 
-CDs e Músicas| Qual é o nome do primeiro DVD lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tuna+Tuna, Um Festival de Duetos
+CDs e Músicas| Qual é o nome do segundo álbum lançado pela RaussTuna em 2016?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| Tuna+Tuna, Um Festival de Duetos
 
-CDs e Músicas| Qual é o nome do segundo CD lançado pela RaussTuna?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| A TUNA! Uma Década de Histórias
+CDs e Músicas| Qual é o nome do livro lançado pela RaussTuna em 2019?| Tunamente Mistos; Vencer; Tuna+Tuna, Um Festival de Duetos; A TUNA! Uma Década de Histórias| A TUNA! Uma Década de Histórias
 
 CDs e Músicas| Quantas músicas originais foram lançadas no primeiro CD?| 12; 10; 15; 8| 12
 
@@ -108,15 +110,15 @@ CDs e Músicas| Quem lançou o single do Hino do Lagoa Azul?| Grupo de Cantares;
 
 CDs e Músicas| Quantos videoclipes foram produzidos pela RaussTuna?| 31; 29; 28; 35| 31
 
-Condecorações| Qual é a condecoração mais alta da RaussTuna?| Medalha de Mérito; Votos de Louvor; Unio, Labor et Justitia; Ordem Honorífica| Unio, Labor et Justitia
+Condecorações| Qual é o título mais alto da RaussTuna?| Medalha de Mérito; Votos de Louvor; Unio, Labor et Justitia; Ordem Honorífica| Unio, Labor et Justitia
 
 Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia?| Sticks; Obi; Major; Fausto Martins de Melo| Obi
 
-Condecorações| Qual título é representado por uma melhada de cordão amarelo e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Mestre; Honorário| Honoris Causa
+Condecorações| Qual título é representado por uma melhada de ouro de cordão amarelo e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Mestre; Honorário| Honoris Causa
 
-Condecorações| Qual título é representado por uma medalha de cordão prateado e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Honorário
+Condecorações| Qual título é representado por uma medalha de prata de cordão branco e azul?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Honorário
 
-Condecorações| Qual título é representado por uma medalha de cordão branco e azul?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Unio, Labor et Justitia - José Adriano
+Condecorações| Qual título é representado por uma medalha de bronze cordão branco e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Veterano Nomeado; Honorário| Unio, Labor et Justitia - José Adriano
 
 Cargos, Funções e Normas| A direção é constituida por cinco membros, quem são?| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal; Magister, Vice-Magister, Adjunto, Auxiliar e Tesoureiro; Magister, Vice-Magister, Gestor de Recursos, Secretário e Vogal; Magister, Vice-Magister, Auxiliar, Gestor de Recursos e Secretário| Magister, Vice-Magister, Secretário, Tesoureiro e Vogal
 
@@ -124,17 +126,17 @@ Cargos, Funções e Normas| Quem são os membros do Conselho Fiscal?| Presidente
 
 Cargos, Funções e Normas| Quais são as partes que formam o Livro de Documentos Normativos?| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas; Estatutos, Regulamento Geral, Regulamento Formal, Protocolo Interno, Regulamento Rauss&Tunas; Fundamentos, Regulamento Geral, Regulamento Eleitoral, Protocolo Normativos, Regulamento Rauss&Tunas; Fundamentos, Regulamento Interno, Regulamento Formal, Protocolo Normativos, Regulamento Rauss&Tunas|Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas
 
-Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, Direção e Conselho Fiscal; Conselho Administrativo, Direção e Coordenação Musical; Assembleia Geral, Direção e Conselho de Veteranos; Conselho de Veteranos, Assembleia Geral e Conselho Fiscal| Assembleia Geral, Direção e Conselho Fiscal
+Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, Direção, Conselho Fiscal, Coordenação Musical, Conselho de Veteranos e Ordem Honorífica; Conselho Administrativo, Direção, Coordenação Musical e Ordem Honorífica; Assembleia Geral, Direção, Conselho de Veteranos e Conselho Fiscal; Conselho de Veteranos, Assembleia Geral, Conselho Fiscal e Coordenação Musical| Assembleia Geral, Direção, Conselho Fiscal, Coordenação Musical, Conselho de Veteranos e Ordem Honorífica
 
 Cargos, Funções e Normas| Qual é a 2ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Regulamento Interno
 
-Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1, 2, 3, 4| 2
+Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1; 2; 3; 4| 2
 
-Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA, CV, Ordem, Gerente do Bar| CV
+Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA; CV; Ordem; Gerente do Bar| CV
 
 Cargos, Funções e Normas| Qual é a 4ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Protocolo Interno
 
-Cargos, Funções e Normas| Quais são as refeições da tuna em que nos sentamos de forma diferente?| Jantar de gala, jantar de aniversário; Jantar de gala, jantar de aniversário e jantar de indigitação; Jantar de indigitação, jantar de aniversário e jantar de tomada de posse; Jantar de indigitação, jantar de tomada de posse| Jantar de gala, jantar de aniversário e jantar de indigitação
+Cargos, Funções e Normas| Quais são as refeições da tuna em que nos sentamos de forma diferente?| Jantar de gala e jantar de aniversário; Jantar de gala, Jantar de Indigitação, Jantar de comissio e Jantar de Aniversário; Jantar de indigitação, jantar de aniversário e jantar de tomada de posse; Jantar de indigitação e jantar de tomada de posse| Jantar de gala, Jantar de Indigitação, Jantar de comissio e Jantar de Aniversário
 
 Cargos, Funções e Normas| Quanto é que a direção transfere para o bar da RaussTuna no início do ano?| 250; 300; 350; 400 | 400
 
@@ -148,7 +150,7 @@ Cargos, Funções e Normas| Qual é a ordem de sucessão do chapéu de Magister?
 
 Cargos, Funções e Normas| Qual é o documento que se envia para pedir uma carrinha para ir a uma viagem?| Carta de requisição; Ofício; Pedido oficial; Requerimento | Ofício
 
-Cargos, Funções e Normas| Quais são os cargos que não podem ter uma pasta em simultâneo?| CA, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, Conselho Fiscal; CA, Tesoureiro, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, PResidente Assembleia | CA, Tesoureiro, Conselho Fiscal, Presidente Assembleia
+Cargos, Funções e Normas| Quais são os cargos que não podem ter outra pasta em simultâneo?| CA, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, Conselho Fiscal; CA, Tesoureiro, Presidente do Conselho Fiscal; CA, Tesoureiro, PResidente Assembleia | CA, Tesoureiro, Presidente do Conselho Fiscal
 
 ### FIM PERGUNTAS
 
