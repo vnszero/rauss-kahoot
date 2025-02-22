@@ -134,7 +134,7 @@ Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA; CV; Ordem
 
 Cargos, Funções e Normas| Qual é a 4ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Protocolo Interno
 
-Cargos, Funções e Normas| Quais são as refeições da tuna em que nos sentamos de forma diferente?| Jantar de gala e jantar de aniversário; Jantar de gala, Jantar de Indigitação, Jantar de comissio e Jantar de Aniversário; Jantar de indigitação, jantar de aniversário e jantar de tomada de posse; Jantar de indigitação e jantar de tomada de posse| Jantar de gala, Jantar de Indigitação, Jantar de comissio e Jantar de Aniversário
+Cargos, Funções e Normas| Quais são as refeições da tuna em que nos sentamos de forma diferente?| Jantar de gala e jantar de aniversário; Jantar de gala, Jantar de Indigitação, Jantar de Comício e Jantar de Aniversário; Jantar de indigitação, jantar de aniversário e jantar de tomada de posse; Jantar de indigitação e jantar de tomada de posse| Jantar de gala, Jantar de Indigitação, Jantar de Comício e Jantar de Aniversário
 
 Cargos, Funções e Normas| Quanto é que a direção transfere para o bar da RaussTuna no início do ano?| 250; 300; 350; 400 | 400
 
