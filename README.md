@@ -72,7 +72,9 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a V
 
 Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical
 
-Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas
+<!-- Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas -->
+
+Hierarquia e Membros| Quem foi a primeira coordenadora mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas
 
 Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres
 
