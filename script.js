@@ -22,14 +22,16 @@ function loadQuestionsFromFile() {
                 const lines = blockContent.split('\n').filter(line => line.trim() !== '').slice(1);
 
                 lines.forEach(line => {
-                    const [category, question, options, answer] = line.split('|').map(item => item.trim());
+                    const [category, question, options, answer, status] = line.split('|').map(item => item.trim());
                     const optionsArray = options.split(';').map(option => option.trim());
-                    questions.push({
-                        category,
-                        question,
-                        options: optionsArray,
-                        answer
-                    });
+                    if (status == "Ok") {
+                        questions.push({
+                            category,
+                            question,
+                            options: optionsArray,
+                            answer
+                        });
+                    }
                 });
             }
         })
