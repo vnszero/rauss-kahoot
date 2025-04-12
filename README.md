@@ -84,7 +84,7 @@ Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Cax
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia| Ok
 
-Festivais e Prémios| Qual deles são possíveis prémios em um festival?|  Melhor Tuna, Melhor Pandeireta, Melhor Serenata; Melhor Pasa Cales, Melhor Solista, Melhor Instrumental; Melhor Adaptação, Melhor Rapsodia, Melhor Original; Melhor Porta-Estandarte, Tuna+Tuna, Melhor Percussão| Melhor Tuna, Melhor Pandeireta, Melhor Serenata| Ok
+Festivais e Prémios| Qual deles são possíveis prémios em um festival?|  Melhor Tuna, Melhor Pandeireta, Melhor Serenata; Melhor Traje, Melhor Solista, Melhor Instrumental; Melhor Adaptação, Melhor Tenor, Melhor Original; Melhor Porta-Estandarte, Tuna+Tuna, Melhor Percussão| Melhor Tuna, Melhor Pandeireta, Melhor Serenata| Ok
 
 Festivais e Prémios| Qual o objetivo do festival Rauss&Tuna’S?| Concurso de Prémios; Solidariedade; Atuar para a Academia; Arrecadar fundos| Solidariedade| Ok
 
