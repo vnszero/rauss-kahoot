@@ -183,6 +183,7 @@ startButton.addEventListener("click", () => {
     startButton.style.color = 'white'; 
     startButton.textContent = 'Recomeçar';
     gameStarted = true;
+    document.getElementById('footer').style.display = "none";
     document.getElementById('easter-egg').style.display = "none";
     document.getElementById('easter-egg-input').style.display = "none";
 
