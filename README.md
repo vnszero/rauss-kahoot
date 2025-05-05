@@ -32,7 +32,7 @@ História e Origens| Onde foi criada a primeira música?| Bragança; Centro Acad
 
 História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5; 10| 10| Ok
 
-História e Origens| O que são os honorários?| São Veteranos Nomeados; São membros da Ordem Honorífica com Títulos Honoríficos; São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna; São patrocinadores importantes da RaussTuna| São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna| Ok
+História e Origens| O que são os Honorários?| São Veteranos Nomeados; São membros da Ordem Honorífica com Títulos Honoríficos; São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna; São patrocinadores importantes da RaussTuna| São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna| Ok
 
 História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança? | Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss| Ok
 
@@ -58,7 +58,7 @@ Hierarquia e Membros| Quem foi o primeiro Veterano não fundador?| Aladino; Faus
 
 Hierarquia e Membros| Quem foi a primeira Magíster mulher?| Gata Brava; Pirata Pimba; Gina; Pauliteira| Gina| Ok
 
-Hierarquia e Membros| Quem são os veteranos nomeados atuais?| Primo, Saavedra, Louco, Azul, Fadista, Almirante, Malote; Primo, Saavedra, Hóstias, Louco; Primo, Saavedra, Louco, Torres, Fadista, Almirante; Primo, Saavedra, Torres| Primo, Saavedra, Louco, Azul, Fadista, Almirante, Malote| Ok
+Hierarquia e Membros| Quem são os Veteranos Nomeados atuais?| Primo, Saavedra, Louco, Azul, Fadista, Almirante, Malote; Primo, Saavedra, Hóstias, Louco; Primo, Saavedra, Louco, Torres, Fadista, Almirante; Primo, Saavedra, Torres| Primo, Saavedra, Louco, Azul, Fadista, Almirante, Malote| Ok
 
 Hierarquia e Membros| Quem foi o primeiro Coordenador Musical não fundador?| Pablo; Obi; Frodo; Gaby| Frodo| Ok
 
