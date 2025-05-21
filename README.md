@@ -18,6 +18,10 @@ História e Origens| Quando foi oficializada a alteração para Tuna?| 29/10/09;
 
 História e Origens| Qual foi o local da primeira atuação?| Centro Académico; Jantar do Curso IG; Anfiteatro; Nerba| Jantar do Curso IG| Ok
 
+História e Origens| Quem foram os membros que decidiram trajar primeiro pela tuna em vez de pela academia e receberam o batismo do PCV no Azibo?| Conde, Drácula, Nandinho, Rato, Zé Fadista; Conde, Drácula, Rauss, Rato, Zé Fadista; Conde, Drácula, Nandinho, Rato, Zé Fausto; Duque, Drácula, Nandinho, Rato, Zé Fausto |Conde, Drácula, Nandinho, Rato, Zé Fadista| Ok
+
+História e Origens| Onde acontece o batismo dos novos membros da RaussTuna?| Azibo; Anfiteatro do IPB; Castelo de Bragança; Pólis| Azibo| Ok 
+
 História e Origens| Onde foi a primeira atuação fora de Bragança?| Arcos de Valdevez; Seia; Gouveia; Aveiro| Arcos de Valdevez| Ok
 
 História e Origens| Quem foram os três fundadores iniciais?| Major, Conde, Obi; Sticks, Duque, Torres; Obi, Zé, Pablo; Obi, Sticks, Torres| Obi, Sticks, Torres| Ok
@@ -72,7 +76,7 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a V
 
 Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
 
-Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pavarotti, Pirata Pimba, Juve Leo, DeBorla, Mini, Becas| NOk
+Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pirata Pimba, Juve Leo, DeBorla, Mini, Becas| Ok
 
 Hierarquia e Membros| Quem foi a primeira coordenadora musical mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas| Ok
 
@@ -80,7 +84,7 @@ Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhido
 
 Hierarquia e Membros| Quem foi a primeira Magíster Caloira?| Fausto Martins de Melo; Inem; Baiona; Pauliteira| Inem| Ok
 
-Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres| Ok
+Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres| Ok
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia| Ok
 
