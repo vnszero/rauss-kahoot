@@ -76,7 +76,7 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a V
 
 Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
 
-Hierarquia e Membros| Quem são os veteranos conselheiros?| Pirata Pimba, Pavarotti, Mini, Amor, Juve Leo, Becas; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Mini, DeBorla, Kilt, Pirata Pimba, Becas; Pavarotti, Kilt, Juve Leo, DeBorla, Mini, Amor| Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava| Ok
+Hierarquia e Membros| Quem são os veteranos conselheiros?| Becas, Amor, Mini, Gata Brava, Shopping, Agonia; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Kilt, DeBorla, Mini, Becas, Agonia; Pavarotti, Amor, DeBorla, Mini, Gata Brava, Shopping| Becas, Amor, Mini, Gata Brava, Shopping, Agonia| Ok
 
 Hierarquia e Membros| Quem foi a primeira coordenadora musical mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas| Ok
 
