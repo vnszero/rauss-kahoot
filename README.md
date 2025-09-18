@@ -76,7 +76,7 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a V
 
 Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
 
-Hierarquia e Membros| Quem são os veteranos conselheiros?| Becas, Amor, Mini, Gata Brava, Shopping, Agonia; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Kilt, DeBorla, Mini, Becas, Agonia; Pavarotti, Amor, DeBorla, Mini, Gata Brava, Shopping| Becas, Amor, Mini, Gata Brava, Shopping, Agonia| Ok
+Hierarquia e Membros| Quem são os veteranos conselheiros, para além do PCV?| Becas, Amor, Mini, Gata Brava, Shopping, Agonia; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Kilt, DeBorla, Mini, Becas, Agonia; Pavarotti, Amor, DeBorla, Mini, Gata Brava, Shopping| Becas, Amor, Mini, Gata Brava, Shopping, Agonia| Ok
 
 Hierarquia e Membros| Quem foi a primeira coordenadora musical mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas| Ok
 
@@ -84,7 +84,7 @@ Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhido
 
 Hierarquia e Membros| Quem foi a primeira Magíster Caloira?| Fausto Martins de Melo; Inem; Baiona; Pauliteira| Inem| Ok
 
-Hierarquia e Membros| Quem é a Ordem Honorífica?| Oscar, Obi, Major, Gina, Caxias, Fausto, Gadjet, Salsa; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres; Oscar, Obi, Major, Gina, Caxias, Fausto, Monchica, Salsa; Oscar, Obi, Major, Gina, Caxias, Fausto, Primo, Gadjet | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres| Ok
+Hierarquia e Membros| Quem é a Ordem Honorífica? | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Oscar, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Oscar; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Preto| Ok
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia| Ok
 
