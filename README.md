@@ -46,9 +46,9 @@ Hierarquia e Membros| Quem foi o primeiro PCV não fundador?| Frodo; Fausto Mart
 
 Hierarquia e Membros| Quem foi o primeiro PCV da tuna?| Duque; Hóstias; Obi; Torres| Hóstias| Ok
 
-Hierarquia e Membros| Quem são por ordem os 5 primeiros fundadores em nomes antigos? | Obi, Sticks, Conde, Major, Oscar; Peito de Rola, Stuart, Lulu, Conde, Pimpolho; Stuart, Peito de Rola, Lulu, Conde, Pimpolho; Stuart, Pimpolho, Peito de Rola, Lulu, Conde | Stuart, Peito de Rola, Lulu, Conde, Pimpolho| Ok
+Hierarquia e Membros| Quem são por ordem os 5 primeiros fundadores em nomes antigos? | Obi, Sticks, Conde, Major, Duque; Peito de Rola, Stuart, Lulu, Conde, Pimpolho; Stuart, Peito de Rola, Lulu, Conde, Pimpolho; Stuart, Pimpolho, Peito de Rola, Lulu, Conde | Stuart, Peito de Rola, Lulu, Conde, Pimpolho| Ok
 
-Hierarquia e Membros| Quem foi o primeiro Presidente da Mesa da Assembleia Geral?| DeBorla; Major; Obi; Oscar| Major| Ok
+Hierarquia e Membros| Quem foi o primeiro Presidente da Mesa da Assembleia Geral?| DeBorla; Major; Mini; Duque| Major| Ok
 
 Hierarquia e Membros| Qual hierarquia é representada pelo botão azul?| Caloiro; Criadage; Veterano; Tuno| Caloiro| Ok
 
@@ -70,11 +70,11 @@ Hierarquia e Membros| Quem é a mascote oficial da RaussTuna?| Lobo Rauss; Ovelh
 
 Hierarquia e Membros| Quem foi a primeira PCV mulher?| Gina; Caxias; Pirata Pimba; Monchica| Caxias| Ok
 
-Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a caloiro?| Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Aventura Começou; Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Tuna!; Abertura da noite, Padrinho, Nomeação, Entrega do Botão, A Aventura Começou; Abertura da noite, Padrinho, Nomeação, Entrega do Botão, A Tuna! | Abertura da noite, Nomeação, Entrega do Botão, Padrinho, A Aventura Começou| Ok
+Hierarquia e Membros| Qual é a sequência de acontecimentos que levam a uma passagem a caloiro?| Abertura da noite, Praxe, Nomeação, Padrinho, Entrega do Emblema e Botão, A Aventura Começou; Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Tuna!; Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou; Abertura da noite, Padrinho, Nomeação, Entrega do Emblema e Botão, A Tuna! | Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou| Ok
 
 Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a Veterano?| Abertura da noite, entrega do botão, nomeação, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, A Tuna!; Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Sempre Bragança| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança| Ok
 
-Hierarquia e Membros| Quem faz parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
+Hierarquia e Membros| Quem faz obrigatoriamente parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
 
 Hierarquia e Membros| Quem são os veteranos conselheiros, para além do PCV?| Becas, Amor, Mini, Gata Brava, Shopping, Agonia; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Kilt, DeBorla, Mini, Becas, Agonia; Pavarotti, Amor, DeBorla, Mini, Gata Brava, Shopping| Becas, Amor, Mini, Gata Brava, Shopping, Agonia| Ok
 
@@ -84,7 +84,7 @@ Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhido
 
 Hierarquia e Membros| Quem foi a primeira Magíster Caloira?| Fausto Martins de Melo; Inem; Baiona; Pauliteira| Inem| Ok
 
-Hierarquia e Membros| Quem é a Ordem Honorífica? | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Oscar, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Oscar; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Salsa, Torres, Stradivarius, Preto| Ok
+Hierarquia e Membros| Quem é a Ordem Honorífica? | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Duque, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Duque; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Preto| Ok
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia| Ok
 
@@ -128,7 +128,7 @@ Cargos, Funções e Normas| A direção é constituida por cinco membros, quem s
 
 Cargos, Funções e Normas| Quem são os membros do Conselho Fiscal?| Presidente e Relator; Presidente, Secretário e Vogal; Presidente, Secretário e Relator; Presidente, Secretário, Relator e Tesoureiro| Presidente, Secretário e Relator| Ok
 
-Cargos, Funções e Normas| Quais são as partes que formam o Livro de Documentos Normativos?| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas; Estatutos, Regulamento Geral, Regulamento Formal, Protocolo Interno, Regulamento Rauss&Tunas; Fundamentos, Regulamento Geral, Regulamento Eleitoral, Protocolo Normativos, Regulamento Rauss&Tunas; Fundamentos, Regulamento Interno, Regulamento Formal, Protocolo Normativos, Regulamento Rauss&Tunas|Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas| Ok
+Cargos, Funções e Normas| Quais são as partes que formam o Livro de Documentos Normativos?| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas; Estatutos, Regulamento Geral, Regulamento Normativo, Protocolo Interno, Protocolo Rauss&Tunas; Constituição da TMB, Regulamento Interno, Regulamento Formal, Protocolo Normativo, Protocolo Rauss&Tunas; Constituição da TMB, Regulamento Formal, Regulamento Eleitoral, Protocolo Normativo, Regulamento Rauss&Tunas| Estatutos, Regulamento Interno, Regulamento Eleitoral, Protocolo Interno, Regulamento Rauss&Tunas| Ok
 
 Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, Direção, Conselho Fiscal, Coordenação Musical, Conselho de Veteranos e Ordem Honorífica; Conselho Administrativo, Direção, Coordenação Musical e Ordem Honorífica; Assembleia Geral, Direção, Conselho de Veteranos e Conselho Fiscal; Conselho de Veteranos, Assembleia Geral, Conselho Fiscal e Coordenação Musical| Assembleia Geral, Direção, Conselho Fiscal, Coordenação Musical, Conselho de Veteranos e Ordem Honorífica| Ok
 
@@ -148,7 +148,7 @@ Cargos, Funções e Normas| Quanto é que a direção transfere para o bar da Ra
 
 Cargos, Funções e Normas| Quando é realizado o juramento de tuna?| Aniversário; Digressão; Tomada de Posse; Ceia de Natal | Aniversário| Ok
 
-Cargos, Funções e Normas| Quantas equipas funcionais existem na tuna?| 10; 11; 8; 9 | 9| Ok
+Cargos, Funções e Normas| Marque a alternativa apenas com equipas funcionais na tuna.| Equipa de Logísticas, Direção, Coordenação Musical; Equipa de Tecnologias, Tesouraria, Bar; Assembleia Geral, Conselho Administrativo, Conselho de Tunos; Assembleia Fiscal, Equipa de Comunicação, Conselho da Côrte| Equipa de Logísticas, Direção, Coordenação Musical| Ok
 
 Cargos, Funções e Normas| Em que mês é o Relatório de Contas?| Julho; Maio; Outubro; Setembro | Setembro| Ok
 
