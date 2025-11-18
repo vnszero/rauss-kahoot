@@ -80,9 +80,9 @@ Hierarquia e Membros| Quem é a mascote oficial da RaussTuna?| Lobo Rauss; Ovelh
 
 Hierarquia e Membros| Quem foi a primeira PCV mulher?| Gina; Caxias; Pirata Pimba; Monchica| Caxias| Ok
 
-Hierarquia e Membros| Qual é a sequência de acontecimentos que levam a uma passagem a caloiro?| Abertura da noite, Praxe, Nomeação, Padrinho, Entrega do Emblema e Botão, A Aventura Começou; Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Tuna!; Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou; Abertura da noite, Padrinho, Nomeação, Entrega do Emblema e Botão, A Tuna! | Praxe, Abertura da noite, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou| Ok
+Hierarquia e Membros| Quais são os acontecimentos em uma passagem a caloiro?| Abertura da noite, Praxe, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou; Abertura da noite, Praxe, Nomeação, Entrega do Emblema e Botão, Padrinho, A Tuna!; Abertura da noite, Praxe, Nomeação, Entrega do Botão e Pin, Padrinho, A Aventura Começou; Abertura da noite, Praxe, Nomeação, Entrega do Botão e Pin, Padrinho, Promessa de Estudante| Abertura da noite, Praxe, Nomeação, Entrega do Emblema e Botão, Padrinho, A Aventura Começou| Ok
 
-Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a Veterano?| Abertura da noite, entrega do botão, nomeação, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, A Tuna!; Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Sempre Bragança| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança| Ok
+Hierarquia e Membros| Quais são os acontecimentos em uma passagem a veterano?| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, discurso, Hino da RaussTuna; Abertura da noite, nomeação, entrega do botão, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Hino da RaussTuna| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança| Ok
 
 Hierarquia e Membros| Onde foram realizadas as primeiras passagens a caloiro?| Floresta; Polis; Azibo; Castelo| Polis| Ok
 
