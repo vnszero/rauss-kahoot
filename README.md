@@ -10,13 +10,17 @@ Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você qui
 
 Categoria| Pergunta| Opções| Resposta| Status
 
-História e Origens| Qual foi o primeiro nome da RaussTuna?| Rauss IG; Grupo de Cantares; Tuna de Bragança; Grupo Académico| Grupo de Cantares| Ok
+História e Origens| Qual foi o primeiro nome da RaussTuna?| Grupo IG; Grupo de Cantares; Tuna de Bragança; Grupo Académico| Grupo IG| Ok
+
+História e Origens| Antes de adotar o nome RaussTuna, qual era o nome do grupo?| Grupo IG; Grupo de Cantares; Tuna de Bragança; Grupo Académico| Grupo de Cantares| Ok
 
 História e Origens| Em que ano foi fundado o Grupo de Cantares e a RaussTuna?| 2009 e 2012; 2009 e 2011; 2010 e 2012; 2010 e 2013| 2009 e 2012| Ok
 
 História e Origens| Quando foi oficializada a alteração para Tuna?| 29/10/09; 15/03/11; 01/01/13; 12/12/12| 12/12/12| Ok
 
-História e Origens| Qual foi o local da primeira atuação?| Centro Académico; Jantar do Curso IG; Anfiteatro; Nerba| Jantar do Curso IG| Ok
+História e Origens| Qual foi o local da primeira atuação do Grupo IG?| Centro Académico; Jantar do Curso IG; Anfiteatro; Nerba| Jantar do Curso IG| Ok
+
+História e Origens| Onde foi a primeira atuação da RaussTuna?| Lagoa Azul; O Borralho; Polis; Anfiteatro do IPB| O Borralho| Ok
 
 História e Origens| Onde acontece o batismo dos novos membros da RaussTuna?| Azibo; Anfiteatro do IPB; Castelo de Bragança; Pólis| Azibo| Ok 
 
@@ -36,7 +40,13 @@ História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5
 
 História e Origens| O que são os Honorários?| São Veteranos Nomeados; São membros da Ordem Honorífica com Títulos Honoríficos; São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna; São patrocinadores importantes da RaussTuna| São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna| Ok
 
-História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança? | Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss| Ok
+História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança?| Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss| Ok
+
+História e Origens| Quais são os símbolos dos Fundadores?| Pin de Fundador, Livro dos Fundadores, Chave da Ordem Honorífica e Emblema da RaussTuna; Pin de Fundador e Livro dos Fundadores; Pin de Fundador e Livro A TUNA! Uma Década de Histórias; Pin da Ordem Honorífica e Chave da Ordem Honorífica| Pin de Fundador e Livro dos Fundadores| Ok;
+
+História e Origens| Onde é usado o Pin de Fundador?| Gola direita; Gola esquerda; Bolso direito; Bolso esquerdo| Gola direita| Ok
+
+História e Origens| Entre os seguintes membros, quem já foi Presidente de Conselho de Mestres?| Major; Zé Fadista; Caxias; Torres| Major| Ok
 
 Hierarquia e Membros| Quem foram os membros que decidiram trajar primeiro pela tuna em vez de pela academia e receberam o batismo do PCV no Azibo?| Conde, Drácula, Nandinho, Rato, Zé Fadista; Conde, Drácula, Rauss, Rato, Zé Fadista; Conde, Drácula, Nandinho, Rato, Zé Fausto; Duque, Drácula, Nandinho, Rato, Zé Fausto |Conde, Drácula, Nandinho, Rato, Zé Fadista| Ok
 
@@ -56,7 +66,7 @@ Hierarquia e Membros| Quantos votos têm os Tunos na Reunião das Côrtes?| 8; 1
 
 Hierarquia e Membros| Qual hierarquia tem um botão preto?| Tuno; Caloiro; PCV; Veterano| Veterano| Ok
 
-Hierarquia e Membros| Qual é a ordem praxística?| PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, CA, Veteranos, Tunos; PCV, Ordem Honorífica, CV, Membros com Títulos Honoríficos, CA, Veteranos, Tunos; PCV, Ordem Honorífica, CA, Membros com Títulos Honoríficos, CV, Veteranos, Tunos; PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, Veteranos, CA, Tunos | PCV, Ordem Honorífica, Membros com Títulos Honoríficos, CV, CA, Veteranos, Tunos| Ok
+Hierarquia e Membros| Qual é a ordem praxística?| PCV, Ordem Honorífica, Membros com Títulos Honoríficos, Conselho de Veteranos, Conselho Administrativo, Veteranos, Tunos; PCV, Ordem Honorífica, Conselho de Veteranos, Membros com Títulos Honoríficos, Conselho Administrativo, Veteranos, Tunos; Ordem Honorífica, Conselho de Veteranos, Membros com Títulos Honoríficos, Conselho Administrativo, Veteranos, Tunos; Ordem Honorífica, Membros com Títulos Honoríficos, Conselho de Veteranos, Conselho Administrativo, Veteranos, Tunos | Ordem Honorífica, Conselho de Veteranos, Membros com Títulos Honoríficos, Conselho Administrativo, Veteranos, Tunos| Ok
 
 Hierarquia e Membros| Quem foi o primeiro Veterano não fundador?| Aladino; Fausto Martins de Melo; Tanatos; Caxias| Fausto Martins de Melo| Ok
 
@@ -74,9 +84,15 @@ Hierarquia e Membros| Qual é a sequência de acontecimentos que levam a uma pas
 
 Hierarquia e Membros| Qual é a sequência de acontecimentos de uma passagem a Veterano?| Abertura da noite, entrega do botão, nomeação, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, A Tuna!; Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança; Abertura da noite, nomeação, entrega do botão, Sempre Bragança| Abertura da noite, nomeação, entrega do botão, discurso, Sempre Bragança| Ok
 
+Hierarquia e Membros| Onde foram realizadas as primeiras passagens a caloiro?| Floresta; Polis; Azibo; Castelo| Polis| Ok
+
+Hierarquia e Membros| Qual era o antigo nome da hierarquia dos Tunos?| Mestres; Tunos Rauss; Tunos com Juramento; Caloiros Rauss| Mestres| OK
+
 Hierarquia e Membros| Quem faz obrigatoriamente parte da mesa de juri das audições?| Magister, PCV, Coordenador Musical; Magister, PCV, Coordenador Musical, Fundador mais velho presente; Magister, PCV, Coordenador Musical, Veterano mais velho presente; Magister, PCV, Coordenador Musical, Tuno mais velho presente| Magister, PCV, Coordenador Musical| Ok
 
 Hierarquia e Membros| Quem são os veteranos conselheiros, para além do PCV?| Becas, Amor, Mini, Gata Brava, Shopping, Agonia; Pirata Pimba, Juve Leo, DeBorla, Mini, Becas, Gata Brava; Juve Leo, Kilt, DeBorla, Mini, Becas, Agonia; Pavarotti, Amor, DeBorla, Mini, Gata Brava, Shopping| Becas, Amor, Mini, Gata Brava, Shopping, Agonia| Ok
+
+Hierarquia e Membros| Quantas pessoas fazem parte do Conselho de Veteranos| 5; 6; 7; 8| 7| Ok
 
 Hierarquia e Membros| Quem foi a primeira coordenadora musical mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas| Ok
 
@@ -84,7 +100,13 @@ Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhido
 
 Hierarquia e Membros| Quem foi a primeira Magíster Caloira?| Fausto Martins de Melo; Inem; Baiona; Pauliteira| Inem| Ok
 
-Hierarquia e Membros| Quem é a Ordem Honorífica? | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Duque, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Duque; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres | Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Preto| Ok
+Hierarquia e Membros| Quem é a Ordem Honorífica?| Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Duque, Preto; Obi, Major, Gina, Caxias, Fausto, Monchica, Primo, Gadjet, Estadulho, Torres, Stradivarius, Preto; Obi, Major, Torres, Caxias, Fausto, Duque, Gina, Estadulho, Monchica, Preto, Stradivarius, Minhota; Obi, Major, Torres, Caxias, Fausto, Duque, Primo, Gadjet, Monchica, Preto, Stradivarius, Minhota | Obi, Major, Torres, Caxias, Fausto, Duque, Gina, Estadulho, Monchica, Preto, Stradivarius, Minhota| Ok
+
+Hierarquia e Membros| Quantas pessoas fazem parte da Ordem Honorífica?| 10; 11; 12; 13| 12| Ok
+
+Hierarquia e Membros| Que tipos de associados pode haver na RaussTuna?| Fundadores, Ordinários Internos, Ordinários Externos, Honorários; Fundadores, Veteranos, Tunos, Caloiros, Criadages; Fundadores, Membros da Ordem, Conselheiros Veteranos, Conselheiros Administrativos, Membros Ordinários; Fundadores, Ordinários, Honorários| Fundadores, Ordinários Internos, Ordinários Externos, Honorários| Ok
+
+Hierarquia e Membros| Quem é o único caloiro fundador?| Conde; Cardanhas; Drácula; Nando| Drácula| Ok
 
 Festivais e Prémios| Qual foi o primeiro festival em que a RaussTuna participou?| Aveiro; Arcos de Valdevez; Seia; Figueira da Foz| Seia| Ok
 
@@ -114,9 +136,20 @@ CDs e Músicas| Quantas músicas originais foram lançadas no primeiro CD?| 12; 
 
 CDs e Músicas| Quem lançou o single do Hino do Lagoa Azul?| Grupo de Cantares; Pablo; RaussTuna; Obi| RaussTuna| Ok
 
-Condecorações| Qual é o título mais alto da RaussTuna?| Medalha de Mérito; Votos de Louvor; Unio, Labor et Justitia; Ordem Honorífica| Unio, Labor et Justitia| Ok
+Cds e Músicas| Quem gravou o solo masculino do Para Ti?| Frodo; Pescador; Batista; Zé Fadista| Batista| Ok
 
-Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia?| Sticks; Obi; Major; Fausto Martins de Melo| Obi| Ok
+Cds e Músicas| Qual é o único álbum que tem o original Febres Altas?| Tunamente Mistos; A Tuna! Uma Década de Histórias; Tuna+Tuna, Um Festival de Duetos; Vencer| Tunamente Mistos| Ok
+
+Cds e Músicas| Quais são cancioneiros da RaussTuna?| Geral, Canto e Cordas, Litúrgico; Geral, Passa Calles, Canto e Cordas, Litúrgico; Geral, Canto e Cordas, Litúrgico, Brindes; Geral, Passa Calles, Canto e Cordas, Litúrgico, Brindes | Geral, Passa Calles, Canto e Cordas, Litúrgico, Brindes| Ok
+
+Cds e Músicas| Quais são as secções instrumentais da RaussTuna?| Cordas, Percussão, Coreográficos e Solo; Cordas, Cajón, Congas, Bongóis, Timbalão, Pandeiretas, Estandartes e Solo; Cordas, Percussão e Solo; Guitarras, Bandolins, Contrabaixo, Cavaquinhos, Percussão, Estandartes, Pandeiretas e Solo| Cordas, Percussão, Coreográficos e Solo| Ok
+
+Cds e Músicas| Quais são Secções Musicais da RaussTuna?| Secções Geral, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Brindes, Litúrgica, Canto e Cordas; Secções Orginais, Passa-Calles, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Litúrgica, Canto e Cordas; Secções Geral, Litúrgica, Canto e Cordas| Ok
+
+Condecorações| Que título é atribuido a quem se destaca em duas das três áreas da TMB?|
+Honoris Causa; Benemérito; Unio, Labor et Justitia - José Adriano; Honorário| Unio, Labor et Justitia - José Adriano| Ok
+
+Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia - José Adriano?| Sticks; Obi; Major; Fausto Martins de Melo| Obi| Ok
 
 Condecorações| Qual título é representado por uma melhada de ouro de cordão amarelo e preto?| Honoris Causa; Unio, Labor et Justitia - José Adriano; Mestre; Honorário| Honoris Causa| Ok
 
@@ -136,7 +169,7 @@ Cargos, Funções e Normas| Qual é a 2ª secção do Livro de Documentos Normat
 
 Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1; 2; 3; 4| 2| Ok
 
-Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA; CV; Ordem; Gerente do Bar| CV| Ok
+Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA; CV; Ordem Honorífica; Gerente do Bar| CV| Ok
 
 Cargos, Funções e Normas| Melhores formas de registrar materiais para o marketing?| orientação vertical, vídeos de 30s, zoom 1x; orientação horizontal, cortar vídeos por tempo para pandeiretas, zoom 1.5x; orientação vertical, vídeos de 30s, zoom ajustável no tempo; orientação diagonal, vídeos de 30s, zoom 2x| orientação vertical, vídeos de 30s, zoom 1x| Ok
 
@@ -156,7 +189,7 @@ Cargos, Funções e Normas| Qual é a ordem de sucessão do chapéu de Magister?
 
 Cargos, Funções e Normas| Qual é o documento que se envia para pedir uma carrinha para ir a uma viagem?| Carta de requisição; Ofício; Pedido oficial; Requerimento | Ofício| Ok
 
-Cargos, Funções e Normas| Quais são os cargos que não podem ter outra pasta em simultâneo?| CA, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, Conselho Fiscal; CA, Tesoureiro, Presidente do Conselho Fiscal; CA, Tesoureiro, PResidente Assembleia | CA, Tesoureiro, Presidente do Conselho Fiscal
+Cargos, Funções e Normas| Quais são os cargos que não podem ter outra pasta em simultâneo?| CA, Conselho Fiscal, Presidente Assembleia; CA, Tesoureiro, Conselho Fiscal; CA, Tesoureiro, Presidente do Conselho Fiscal; CA, Tesoureiro, PResidente Assembleia | CA, Tesoureiro, Presidente do Conselho Fiscal| Ok
 
 ### FIM PERGUNTAS
 
