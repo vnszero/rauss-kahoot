@@ -40,7 +40,7 @@ História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5
 
 História e Origens| O que são os Honorários?| São Veteranos Nomeados; São membros da Ordem Honorífica com Títulos Honoríficos; São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna; São patrocinadores importantes da RaussTuna| São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna| Ok
 
-História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança?| Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Chave; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss| Ok
+História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança?| Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT| Ok
 
 História e Origens| Quais são os símbolos dos Fundadores?| Pin de Fundador, Livro dos Fundadores, Chave da Ordem Honorífica e Emblema da RaussTuna; Pin de Fundador e Livro dos Fundadores; Pin de Fundador e Livro A TUNA! Uma Década de Histórias; Pin da Ordem Honorífica e Chave da Ordem Honorífica| Pin de Fundador e Livro dos Fundadores| Ok;
 
@@ -167,7 +167,7 @@ Cargos, Funções e Normas| Quais são os órgãos sociais?| Assembleia Geral, D
 
 Cargos, Funções e Normas| Qual é a 2ª secção do Livro de Documentos Normativos?| Estatutos; Protocolo Interno; Regulamento Eleitoral; Regulamento Interno| Regulamento Interno| Ok
 
-Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1; 2; 3; 4| 2| Ok
+Cargos, Funções e Normas| Quantas partes tem a reunião das cortês?| 1; 2; 3; 4| 3| Ok
 
 Cargos, Funções e Normas| Quem sanciona quem não anota na tuna| CA; CV; Ordem Honorífica; Gerente do Bar| CV| Ok
 
