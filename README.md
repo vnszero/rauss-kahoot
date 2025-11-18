@@ -181,7 +181,7 @@ Cargos, Funções e Normas| Quanto é que a direção transfere para o bar da Ra
 
 Cargos, Funções e Normas| Quando é realizado o juramento de tuna?| Aniversário; Digressão; Tomada de Posse; Ceia de Natal | Aniversário| Ok
 
-Cargos, Funções e Normas| Marque a alternativa apenas com equipas funcionais na tuna.| Equipa de Logísticas, Direção, Coordenação Musical; Equipa de Tecnologias, Tesouraria, Bar; Assembleia Geral, Conselho Administrativo, Conselho de Tunos; Assembleia Fiscal, Equipa de Comunicação, Conselho da Côrte| Equipa de Logísticas, Direção, Coordenação Musical| Ok
+Cargos, Funções e Normas| Marque a alternativa que todos os itens são equipas funcionais da RaussTuna| Equipa do Bar, Tecnologias Digitais, Comunicação; Equipa do Bar, Direção, Coordenação Musical; Equipa da Comunicação, Bar, Conselho Fiscal; Equipa da Assembléia Geral, Tecnologias Digitais, Bar| Equipa do Bar, Tecnologias Digitais, Comunicação| Ok
 
 Cargos, Funções e Normas| Em que mês é o Relatório de Contas?| Julho; Maio; Outubro; Setembro | Setembro| Ok
 
