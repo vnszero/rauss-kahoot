@@ -36,8 +36,6 @@ História e Origens| Quais foram os primeiros cinco originais da RaussTuna?| Feb
 
 História e Origens| Onde foi criada a primeira música?| Bragança; Centro Académico; 1ª saída de Bragança; Gouveia| 1ª saída de Bragança| Ok
 
-História e Origens| Quantos dias normalmente dura a digressão anual?| 7; 14; 5; 10| 10| Ok
-
 História e Origens| O que são os Honorários?| São Veteranos Nomeados; São membros da Ordem Honorífica com Títulos Honoríficos; São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna; São patrocinadores importantes da RaussTuna| São pessoas da comunidade que contribuiram de forma significativa com a RaussTuna| Ok
 
 História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança?| Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT| Ok
@@ -62,7 +60,9 @@ Hierarquia e Membros| Quem foi o primeiro Presidente da Mesa da Assembleia Geral
 
 Hierarquia e Membros| Qual hierarquia é representada pelo botão azul?| Caloiro; Criadage; Veterano; Tuno| Caloiro| Ok
 
-Hierarquia e Membros| Quantos votos têm os Tunos na Reunião das Côrtes?| 8; 12; 6; 15| 6| Ok
+Hierarquia e Membros| Quantos votos têm os Tunos na Reunião das Côrtes?| 6; 10; 5; 8| 5| Ok
+
+Hierarquia e Membros| Quantos votos têm os Veteranos na Reunião das Côrtes?| 9; 10; 11; 12| 10| Ok
 
 Hierarquia e Membros| Qual hierarquia tem um botão preto?| Tuno; Caloiro; PCV; Veterano| Veterano| Ok
 
