@@ -2,47 +2,69 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo de Perguntas e Respostas</title>
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/11.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore-compat.js"></script>
+
+    <title>Rauss Kahoot</title>
+
+    <link rel="shortcut icon" href="assets/store/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
-    <header>
-        <h1>Quiz RaussTuna</h1>
+    <header class="custom-header">
+        <nav class="custom-nav">
+            <h1 class="app-title">Quiz RaussTuna</h1>
+
+            <img class="settings-icon" src="assets/store/settings.png" alt="settings">
+        </nav>
+
+        <!-- Slide-out / toggled controls -->
         <div id="controls">
-            <div>
-                <label for="question-category">Categoria das questões:</label>
-                <select id="question-category">
-                    <option value="0" selected>Todas</option>
-                    <option value="1">História e Origens</option>
-                    <option value="2">Hierarquia e Membros</option>
-                    <option value="3">Festivais e Prémios</option>
-                    <option value="5">CDs e Músicas</option>
-                    <option value="6">Condecorações</option>
-                    <option value="7">Cargos, Funções e Normas</option>
-                </select>
+
+            <div class="control-pair">
+                <div class="control-group">
+                    <label for="question-category-control">Categoria:</label>
+                    <select id="question-category-control">
+                        <option value="0" selected>Todas</option>
+                        <option value="1">História e Origens</option>
+                        <option value="2">Hierarquia e Membros</option>
+                        <option value="3">Festivais e Prémios</option>
+                        <option value="4">CDs e Músicas</option>
+                        <option value="5">Condecorações</option>
+                        <option value="6">Cargos, Funções e Normas</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="question-count-control">Qtd. Questões:</label>
+                    <select id="question-count-control">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                        <option value="25">25</option>
+                        <option value="40">40</option>
+                        <option value="65">65</option>
+                        <option value="90">90</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="mode-control">Visualização:</label>
+                    <select id="mode-control">
+                        <option value="0">Jogo</option>
+                        <option value="1">Lista</option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <label for="question-count">Número de questões:</label>
-                <select id="question-count">
-                    <option value="5">5</option>
-                    <option value="10" selected>10</option>
-                    <option value="15">15</option>
-                    <option value="25">25</option>
-                    <option value="40">40</option>
-                    <option value="65">65</option>
-                    <option value="90">90</option>
-                </select>
-            </div>
-            <div>
-                <label for="mode">Visualização:</label>
-                <select id="mode">
-                    <option value="0">Jogo</option>
-                    <option value="1">Lista</option>
-                </select>
-            </div>
-            <button id="start-button">Começar</button>
+
+            <button id="start-button" class="game-button">Começar</button>
         </div>
     </header>
 
@@ -52,24 +74,167 @@
         <div id="result-container" style="display: none;">
             <p id="score"></p>
         </div>
-        <button id="next-button" disabled>Próxima Pergunta</button>
+        <button id="next-button" class="game-button" disabled>Próxima Pergunta</button>
     </div>
 
     <div id="easter-egg-input" style="display: none; text-align: center; margin-top: 20px;">
         <p>Insira o código para desbloquear o easter egg:</p>
         <input type="text" id="easter-egg-code" placeholder="Digite o código aqui" style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
-        <button onclick="checkEasterEggCode()" style="padding: 5px 10px; border-radius: 5px; background-color: #007BFF; color: white; border: none; cursor: pointer;">Submeter</button>
+        <button onclick="checkEasterEggCode()" class="game-button">Submeter</button>
     </div> 
     <div id="easter-egg" style="display: none;">
         <h2>Créditos</h2>
+        <h3>Consultores Criativos:</h3>
         <p>Laura "Açorda" Raposo</p>
         <p>Sílvia "Khalifa" Góis</p>
+        <h3>Desenvolvedor:</h3>
         <p>Vinícius "Breve" Silva</p>
+        <h3>Revisores Versão 1.0:</h3>
+        <p>Rute "Kobe Flor" Carvalho</p>
+        <p>Maria "Peste&Sida" Borges</p>
     </div>   
+
+    <main class="custom-main">
+
+        <!-- Settings Sidebar -->
+        <aside class="settings-sidebar">
+            <button class="close-settings">X</button>
+            <div class="settings-options">
+                <button id="btn-login" class="guest-only">Entrar</button>
+                <button id="btn-signup" class="guest-only">Registrar</button>
+                <button id="btn-logout" class="logged-only">Sair</button>
+                <button id="btn-create" class="admin-only">Criar Questão</button>
+                <button id="btn-manage" class="admin-only">Gerenciar Contas</button>
+            </div>
+        </aside>
+
+        <div id="modal-login" class="modal">
+            <div class="modal-content">
+                <h4>Entrar</h4>
+                <form id="login-form">
+                    <div class="input-field">
+                        <input type="email" id="login-email" required />
+                        <label for="login-email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="login-password" required />
+                        <label for="login-password">Senha</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light" type="submit">Entrar</button>
+                    </div>
+                    <div class="error red-text" style="margin-top: 1rem;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="modal-signup" class="modal">
+            <div class="modal-content">
+                <h4>Registrar novo usuário</h4>
+                <form id="signup-form">
+                    <div class="input-field">
+                        <input type="text" id="signup-name" />
+                        <label for="signup-name">Nome</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" id="signup-email" required />
+                        <label for="signup-email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="signup-password" required />
+                        <label for="signup-password">Senha</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light" type="submit">Registrar</button>
+                    </div>
+                    <div class="error red-text" style="margin-top: 1rem;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="modal-create" class="modal">
+            <div class="modal-content">
+                <h4>Questão</h4>
+                <form id="create-form">
+                    <div class="row">
+
+                        <div class="input-field col s12">
+                            <select id="category" required>
+                                <option value="História e Origens" selected>História e Origens</option>
+                                <option value="Hierarquia e Membros">Hierarquia e Membros</option>
+                                <option value="Festivais e Prémios">Festivais e Prémios</option>
+                                <option value="CDs e Músicas">CDs e Músicas</option>
+                                <option value="Condecorações">Condecorações</option>
+                                <option value="Cargos, Funções e Normas">Cargos, Funções e Normas</option>
+                            </select>
+                            <label for="category">Categoria</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input type="text" id="question" required />
+                            <label for="question">Pergunta</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input type="text" id="answer" required />
+                            <label for="answer">Resposta Correta</label>
+                        </div>
+
+                        <div id="fake-options-container"></div>
+
+                        <a class="btn-small blue" id="add-fake-option-btn">
+                            Adicionar Alternativa Errada
+                        </a>
+                    </div>
+
+                    <div class="error red-text text-darken-2" style="margin-top: 10px;"></div>
+
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light" type="submit">Confirmar</button>
+                    </div>
+
+                    <div class="error red-text" style="margin-top: 1rem;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="modal-manage-account" class="modal">
+            <div class="modal-content">
+                <h4>Tornar Admin</h4>
+                <form id="manage-form">
+                    <div class="input-field">
+                        <input type="email" id="manage-email" required />
+                        <label for="manage-email">Email</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn waves-effect waves-light" type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                    <div class="error red-text" style="margin-top: 1rem;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="modal-delete-question" class="modal">
+            <div class="modal-content">
+                <h4>Confirmar Ação</h4>
+                <p>Tem certeza que deseja deletar a questão?</p>
+            </div>
+            <div class="modal-footer">
+                <button id="delete-confirm-btn" class="btn red waves-effect waves-light">Deletar</button>
+                <button id="cancel-delete-btn" class="btn grey waves-effect waves-light">Cancelar</button>
+            </div>
+        </div>
+    </main>   
 
     <footer id="footer">
         <p>RaussTuna &copy; <span id="current-year"></span></p>
     </footer>
+    <script src="cs.js"></script>
+    <script src="config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
     <script src="script.js"></script>
 </body>
 </html>

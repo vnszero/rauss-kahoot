@@ -1,44 +1,125 @@
 let questions = [];
-
-const categories = {
-    "1": "História e Origens",
-    "2": "Hierarquia e Membros",
-    "3": "Festivais e Prémios",
-    // "4": "",
-    "5": "CDs e Músicas",
-    "6": "Condecorações",
-    "7": "Cargos, Funções e Normas"
-}
+let categories = {};          // numeric ID → category name
+let questionsByCategory = {}; // category name → array of questions
 
 function loadQuestionsFromFile() {
     fetch('README.md')
         .then(response => response.text())
         .then(fileContent => {
+
+            // Clear all
+            questions = [];
+            categories = {};
+            questionsByCategory = {};
+
+            const discoveredCategories = [];
+
+            // Find questions block
             const questionsBlock = fileContent.match(/### INÍCIO PERGUNTAS\n([\s\S]*?)### FIM PERGUNTAS/);
-            if (questionsBlock && questionsBlock[1]) {
-                const blockContent = questionsBlock[1].trim();
 
-                // remover header and empty rows
-                const lines = blockContent.split('\n').filter(line => line.trim() !== '').slice(1);
-
-                lines.forEach(line => {
-                    const [category, question, options, answer, status] = line.split('|').map(item => item.trim());
-                    const optionsArray = options.split(';').map(option => option.trim());
-                    if (status == "Ok") {
-                        questions.push({
-                            category,
-                            question,
-                            options: optionsArray,
-                            answer
-                        });
-                    }
-                });
+            if (!questionsBlock || !questionsBlock[1]) {
+                console.error("Bloco de perguntas não encontrado no README.md");
+                return;
             }
+
+            const blockContent = questionsBlock[1].trim();
+
+            // Remove table header and empty rows
+            const lines = blockContent
+                .split('\n')
+                .filter(line => line.trim() !== '')
+                .slice(1); // to skip header
+
+            // Recover questions
+            lines.forEach(line => {
+                const [category, question, options, answer, status] =
+                    line.split('|').map(item => item.trim());
+
+                // Only questions with status Ok
+                if (status !== "Ok") return;
+
+                const optionsArray = options.split(';').map(o => o.trim());
+
+                // Collect category names
+                if (!discoveredCategories.includes(category)) {
+                    discoveredCategories.push(category);
+                }
+
+                const q = {
+                    category,
+                    question,
+                    options: optionsArray,
+                    answer
+                };
+
+                questions.push(q);
+
+                // Group questions by category name
+                if (!questionsByCategory[category]) {
+                    questionsByCategory[category] = [];
+                }
+                questionsByCategory[category].push(q);
+            });
+
+            // Build categories map with numeric keys
+            // Start from 1 (string keys: "1", "2", ...)
+            discoveredCategories.forEach((cat, index) => {
+                categories[(index + 1).toString()] = cat;
+            });
         })
         .catch(error => console.error("Erro ao carregar perguntas:", error));
 }
 
-loadQuestionsFromFile();
+async function loadQuestionsFromFirebase() {
+    db.collection('questions').onSnapshot(snapshot => {
+        questions = [];
+        categories = {};
+        questionsByCategory = {};
+        const discoveredCategories = [];
+
+        snapshot.forEach(doc => {
+            const data = doc.data();
+
+            // Only questions with status true
+            if (data.status !== true) return;
+
+            const categoryName = data.category;
+
+            // Collect category names and avoid duplicates
+            if (!discoveredCategories.includes(categoryName)) {
+                discoveredCategories.push(categoryName);
+            }
+
+            console.log(data.options);
+            
+            const q = {
+                id: doc.id,
+                category: categoryName,
+                question: data.question,
+                options: data.options,
+                answer: data.answer
+            };
+
+            questions.push(q);
+
+            // Group questions by category name
+            if (!questionsByCategory[categoryName]) {
+                questionsByCategory[categoryName] = [];
+            }
+            questionsByCategory[categoryName].push(q);
+        });
+
+        // Build categories map with numeric keys
+        // Start from 1 (string keys: "1", "2", ...)
+        categories = {};
+        discoveredCategories.forEach((cat, index) => {
+            categories[(index + 1).toString()] = cat;
+        });
+    });
+}
+
+// loadQuestionsFromFile();
+loadQuestionsFromFirebase();
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -54,11 +135,11 @@ const resultContainer = document.getElementById("result-container");
 const scoreElement = document.getElementById("score");
 const startButton = document.getElementById("start-button");
 const gameContainer = document.getElementById("game-container");
-const questionCountSelect = document.getElementById("question-count");
+const questionCountSelect = document.getElementById("question-count-control");
 const questionContainer = document.getElementById("question");
 const scoreContainer = document.getElementById("result-container");
-const categorySelector = document.getElementById("question-category");
-const modeSelector = document.getElementById("mode");
+const categorySelector = document.getElementById("question-category-control");
+const modeSelector = document.getElementById("mode-control");
 const footer = document.getElementById("footer");
 
 // update year
