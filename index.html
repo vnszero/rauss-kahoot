@@ -171,13 +171,22 @@
                         </div>
 
                         <div class="input-field col s12">
-                            <input type="text" id="question" required />
+                            <input type="text" id="question-field" required />
                             <label for="question">Pergunta</label>
                         </div>
 
                         <div class="input-field col s12">
                             <input type="text" id="answer" required />
                             <label for="answer">Resposta Correta</label>
+                        </div>
+
+                        <div class="switch">
+                            <label>
+                                Inativa
+                                <input type="checkbox" id="status" checked>
+                                <span class="lever"></span>
+                                Ativa
+                            </label>
                         </div>
 
                         <div id="fake-options-container"></div>
@@ -235,6 +244,8 @@
     <script src="config.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="component-sidebar.js"></script>
+    <script src="component-fake-options.js"></script>
+    <script src="component-auth.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

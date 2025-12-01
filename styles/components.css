@@ -51,6 +51,27 @@
     font-style: italic;
 }
 
+.game-button {
+    background-color: var(--color_mid_logo);
+    border: none;
+    border-radius: 5px;
+    color: var(--color_clear);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.game-button:hover:not(:disabled) {
+    background-color: var(--color_mid_logo_transition);
+    transform: translateY(-1px);
+}
+
+.game-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
 .logo>h1 {
     font-size: 375%;
 }
@@ -157,25 +178,13 @@
     cursor: pointer;
 }
 
-.game-button {
-    background-color: var(--color_mid_logo);
-    border: none;
-    border-radius: 5px;
-    color: var(--color_clear);
+.switch {
+    margin: 20px 0px;
+}
+
+.remove-fake-option {
+    color: #f44336;
     cursor: pointer;
-    font-size: 16px;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.game-button:hover:not(:disabled) {
-    background-color: var(--color_mid_logo_transition);
-    transform: translateY(-1px);
-}
-
-.game-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
 }
 
 .value-action-group {

@@ -89,8 +89,6 @@ async function loadQuestionsFromFirebase() {
             if (!discoveredCategories.includes(categoryName)) {
                 discoveredCategories.push(categoryName);
             }
-
-            console.log(data.options);
             
             const q = {
                 id: doc.id,
