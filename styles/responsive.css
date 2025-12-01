@@ -1,0 +1,31 @@
+@media screen and (max-width: 968px) {
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        background-color: var(--color_dark_logo);
+        width: 60%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    #controls {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #controls > div {
+        width: 100%;
+    }
+
+    #controls select, #controls button {
+        width: 100%;
+    }
+}
