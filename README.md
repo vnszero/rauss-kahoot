@@ -2,6 +2,10 @@
 
 Este é um projeto de quiz interativo com perguntas sobre a RaussTuna, desenvolvido em JavaScript.
 
+## Notas da Versão
+
+Com as atualizações feitas as perguntas presentes neste README pertencem a solução legada e não representam a base de dados mais atual. O jogo em sua versão 3.0 conta com banco de dados em nuvem Firestore e, portanto, as perguntas presentes neste arquivo são usadas apenas para fins de desenvolvimento e testes locais.
+
 ## Perguntas
 
 Aqui estão as perguntas atuais do quiz organizadas por categorias. Se você quiser contribuir com mais perguntas ou correções, por favor siga as instruções na seção [Como Contribuir](#como-contribuir).
