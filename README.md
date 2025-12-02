@@ -22,7 +22,7 @@ História e Origens| Qual foi o local da primeira atuação do Grupo IG?| Centro
 
 História e Origens| Onde foi a primeira atuação da RaussTuna?| Lagoa Azul; O Borralho; Polis; Anfiteatro do IPB| O Borralho| Ok
 
-História e Origens| Onde acontece o batismo dos novos membros da RaussTuna?| Azibo; Anfiteatro do IPB; Castelo de Bragança; Pólis| Azibo| Ok 
+História e Origens| Onde acontece o batismo dos novos membros da RaussTuna?| Azibo; Anfiteatro do IPB; Castelo de Bragança; Pólis| Azibo| Ok
 
 História e Origens| Onde foi a primeira atuação fora de Bragança?| Arcos de Valdevez; Seia; Gouveia; Aveiro| Arcos de Valdevez| Ok
 
@@ -40,7 +40,7 @@ História e Origens| O que são os Honorários?| São Veteranos Nomeados; São m
 
 História e Origens| Quais são os símbolos oficiais da Tuna Mista de Bragança?| Bengala, Chapéu, Pin, Chave; Emblema, Bandeira, Lobo Rauss; Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT; Bengala, Chapéu, Pin| Emblema, Bandeira, Lobo Rauss, Logotipo do Rauss&Tunas, Logotipo das JIT| Ok
 
-História e Origens| Quais são os símbolos dos Fundadores?| Pin de Fundador, Livro dos Fundadores, Chave da Ordem Honorífica e Emblema da RaussTuna; Pin de Fundador e Livro dos Fundadores; Pin de Fundador e Livro A TUNA! Uma Década de Histórias; Pin da Ordem Honorífica e Chave da Ordem Honorífica| Pin de Fundador e Livro dos Fundadores| Ok;
+História e Origens| Quais são os símbolos dos Fundadores?| Pin de Fundador, Livro dos Fundadores, Chave da Ordem Honorífica e Emblema da RaussTuna; Pin de Fundador e Livro dos Fundadores; Pin de Fundador e Livro A TUNA! Uma Década de Histórias; Pin da Ordem Honorífica e Chave da Ordem Honorífica| Pin de Fundador e Livro dos Fundadores| Ok
 
 História e Origens| Onde é usado o Pin de Fundador?| Gola direita; Gola esquerda; Bolso direito; Bolso esquerdo| Gola direita| Ok
 
@@ -96,7 +96,7 @@ Hierarquia e Membros| Quantas pessoas fazem parte do Conselho de Veteranos| 5; 6
 
 Hierarquia e Membros| Quem foi a primeira coordenadora musical mulher?| Rodinhas; Gina; Caxias; Monchica| Rodinhas| Ok
 
-Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhidos como padrinhos?| Tunos; Veteranos; Caloiros; Caloiros com juramento| Tunos| Ok 
+Hierarquia e Membros| A partir de qual hierarquia os membros podem ser escolhidos como padrinhos?| Tunos; Veteranos; Caloiros; Caloiros com juramento| Tunos| Ok
 
 Hierarquia e Membros| Quem foi a primeira Magíster Caloira?| Fausto Martins de Melo; Inem; Baiona; Pauliteira| Inem| Ok
 
@@ -144,10 +144,9 @@ Cds e Músicas| Quais são cancioneiros da RaussTuna?| Geral, Canto e Cordas, Li
 
 Cds e Músicas| Quais são as secções instrumentais da RaussTuna?| Cordas, Percussão, Coreográficos e Solo; Cordas, Cajón, Congas, Bongóis, Timbalão, Pandeiretas, Estandartes e Solo; Cordas, Percussão e Solo; Guitarras, Bandolins, Contrabaixo, Cavaquinhos, Percussão, Estandartes, Pandeiretas e Solo| Cordas, Percussão, Coreográficos e Solo| Ok
 
-Cds e Músicas| Quais são Secções Musicais da RaussTuna?| Secções Geral, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Brindes, Litúrgica, Canto e Cordas; Secções Orginais, Passa-Calles, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Litúrgica, Canto e Cordas; Secções Geral, Litúrgica, Canto e Cordas| Ok
+Cds e Músicas| Quais são Secções Musicais da RaussTuna?| Secções Geral, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Brindes, Litúrgica, Canto e Cordas; Secções Orginais, Passa-Calles, Litúrgica, Canto e Cordas; Secções Orginais, Adaptações, Passa-Calles, Litúrgica, Canto e Cordas| Secções Geral, Litúrgica, Canto e Cordas| Ok
 
-Condecorações| Que título é atribuido a quem se destaca em duas das três áreas da TMB?|
-Honoris Causa; Benemérito; Unio, Labor et Justitia - José Adriano; Honorário| Unio, Labor et Justitia - José Adriano| Ok
+Condecorações| Que título é atribuido a quem se destaca em duas das três áreas da TMB?| Honoris Causa; Benemérito; Unio, Labor et Justitia - José Adriano; Honorário| Unio, Labor et Justitia - José Adriano| Ok
 
 Condecorações| Quem foi o primeiro nomeado Unio, Labor et Justitia - José Adriano?| Sticks; Obi; Major; Fausto Martins de Melo| Obi| Ok
 
