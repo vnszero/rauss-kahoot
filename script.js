@@ -183,7 +183,7 @@ function selectOption(element, option) {
 
 function loadQuestion() {
     const currentQuestion = gameQuestions[currentQuestionIndex];
-    questionContainer.textContent = currentQuestion.question;
+    questionContainer.textContent = (currentQuestionIndex + 1).toString() + ') ' + currentQuestion.question;
     optionsContainer.innerHTML = "";
     nextButton.disabled = true;
 
