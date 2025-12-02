@@ -54,7 +54,11 @@ function openEditModal(q) {
 
     form['question-field'].value = q.question;
     form['answer'].value = q.answer;
-
+    
+    const select = form['category'];
+    select.value = q.category;
+    M.FormSelect.init(select);
+    
     // Status switch (true/false)
     document.getElementById("status").checked = q.status === true;
 
