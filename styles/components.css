@@ -221,7 +221,7 @@
 }
 
 #easter-egg {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--color_dark_logo);
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     color: white;

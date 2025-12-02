@@ -293,37 +293,38 @@ categorySelector.addEventListener("change", () => {
 
 function activateEasterEgg() {
     document.getElementById("easter-egg").style.display = "block";
+    document.getElementById("easter-egg-input").style.display = "none";
+    document.getElementById("footer").style.display = "none";
     alert("Easter Egg Desbloqueado! Veja os autores do projeto.");
 }
 
-// Função para verificar o código do easter egg
+// Function to verify easter egg code
 function checkEasterEggCode() {
     const codeInput = document.getElementById("easter-egg-code");
-    if (codeInput.value === "0000FF") {
+    if (codeInput.value === "0000FF" || codeInput.value === "0000ff") {
         activateEasterEgg();
-        codeInput.value = ""; // Limpa o campo de entrada
     } else {
         alert("Código incorreto! Tente novamente.");
-        codeInput.value = ""; // Limpa o campo de entrada
     }
+    codeInput.value = ""; // Clear input field
 }
 
-// Adiciona o evento de duplo toque para mostrar o campo de código
+// Add double click event to show hidden code field
 let touchTimeout;
 document.addEventListener("touchstart", () => {
     if (!gameStarted) {
         if (touchTimeout) {
-            // Duplo toque detectado
+            // Double touch detected
             clearTimeout(touchTimeout);
             touchTimeout = null;
 
-            // Exibe o input para o código do easter egg
+            // show input
             const codeContainer = document.getElementById("easter-egg-input");
             codeContainer.style.display = "block";
         } else {
-            // Primeiro toque
+            // First touch
             touchTimeout = setTimeout(() => {
-                touchTimeout = null; // Reseta após o timeout
+                touchTimeout = null; // Timeout reset
             }, 300);
         }
     }
