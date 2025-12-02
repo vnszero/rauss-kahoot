@@ -209,7 +209,7 @@
 #easter-egg-input button {
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #007BFF;
+    background-color: var(--color_mid_logo);
     color: white;
     border: none;
     cursor: pointer;
