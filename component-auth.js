@@ -75,35 +75,48 @@ function openEditModal(q) {
 }
 
 function showLoggedOptions(user) {
+    // If not logged in, hide logged/admin UI and clear admin-actions
     if (!user) {
-        document.querySelectorAll(".guest-only").forEach(btn => {
-            btn.style.display = "block";
-        });
-        document.querySelectorAll(".logged-only").forEach(btn => {
-            btn.style.display = "none";
-        });
-        document.querySelectorAll(".admin-only").forEach(btn => {
-            btn.style.display = "none";
-        });
+        document.querySelectorAll(".guest-only").forEach(btn => btn.style.display = "block");
+        document.querySelectorAll(".logged-only").forEach(btn => btn.style.display = "none");
+        document.querySelectorAll(".admin-only").forEach(btn => btn.style.display = "none");
+        document.querySelectorAll(".admin-actions").forEach(div => div.style.display = "none");
         return;
     }
 
-    db.collection('users').doc(user.uid).get().then(doc => {
-        const data = doc.data();
-        if (data) {
-            document.querySelectorAll(".guest-only").forEach(btn => {
-                btn.style.display = "none";
-            });
-            document.querySelectorAll(".logged-only").forEach(btn => {
-                btn.style.display = "block";
-            });
-        }
+    // If you already stored role in localStorage, use it as a quick path
+    const cachedRole = localStorage.getItem('userRole');
+    if (cachedRole) {
+        // Show UI based on cached role immediately
+        document.querySelectorAll(".guest-only").forEach(btn => btn.style.display = "none");
+        document.querySelectorAll(".logged-only").forEach(btn => btn.style.display = "block");
 
-        if (data && data.role === 'admin') {
-            document.querySelectorAll(".admin-only").forEach(btn => {
-                btn.style.display = "block";
-            });
+        if (cachedRole === 'admin') {
+            document.querySelectorAll(".admin-only").forEach(btn => btn.style.display = "block");
+        } else {
+            document.querySelectorAll(".admin-only").forEach(btn => btn.style.display = "none");
         }
+    }
+
+    // Still fetch fresh role from Firestore and sync localStorage + UI.
+    db.collection('users').doc(user.uid).get().then(doc => {
+        const data = doc && doc.exists ? doc.data() : null;
+        const role = data && data.role ? data.role : 'common';
+
+        // persist and update UI if it differs from cached value
+        const prev = localStorage.getItem('userRole');
+        if (prev !== role) localStorage.setItem('userRole', role);
+
+        document.querySelectorAll(".guest-only").forEach(btn => btn.style.display = "none");
+        document.querySelectorAll(".logged-only").forEach(btn => btn.style.display = "block");
+
+        if (role === 'admin') {
+            document.querySelectorAll(".admin-only").forEach(btn => btn.style.display = "block");
+        } else {
+            document.querySelectorAll(".admin-only").forEach(btn => btn.style.display = "none");
+        }
+    }).catch(err => {
+        console.error('Erro ao ler role do Firestore:', err);
     });
 }
 
@@ -151,7 +164,31 @@ logout.addEventListener('click', (e) => {
 
 // listen for auth status changes
 auth.onAuthStateChanged((user) => {
-    showLoggedOptions(user);
+    if (!user) {
+        // Not logged in — clear saved role and update UI
+        localStorage.removeItem('userRole');
+        showLoggedOptions(null);
+        return;
+    }
+
+    // Logged in — fetch role and persist it
+    db.collection('users').doc(user.uid).get()
+      .then(doc => {
+        const data = doc && doc.exists ? doc.data() : null;
+        const role = data && data.role ? data.role : 'common';
+
+        // Persist role for quick checks elsewhere
+        localStorage.setItem('userRole', role);
+
+        // Update UI passing the full user object (still useful)
+        showLoggedOptions(user);
+      })
+      .catch(err => {
+        console.error('Erro ao obter dados do usuário:', err);
+        // fallback: treat as non-admin but logged-in
+        localStorage.setItem('userRole', 'common');
+        showLoggedOptions(user);
+      });
 });
 
 // login

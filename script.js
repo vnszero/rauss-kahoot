@@ -394,7 +394,7 @@ function showQuestionList() {
         // If ADMIN, add buttons
         if (checkIfAdmin()) {
             content += `
-                <div class="admin-actions admin-only">
+                <div class="admin-actions">
                     <img src="assets/store/edit.png" 
                         class="action-btn edit-btn"
                         data-id="${q.id}" 
@@ -407,7 +407,7 @@ function showQuestionList() {
                 </div>
             `;
         }
-
+                
         listItem.innerHTML = content;
         listElement.appendChild(listItem);
     });
