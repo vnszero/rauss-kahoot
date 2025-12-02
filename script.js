@@ -1,4 +1,5 @@
-let questions = [];
+let questions = [];           // questions used in game
+let allQuestions = [];        // all existing questions in firebase
 let categories = {};          // numeric ID → category name
 let questionsByCategory = {}; // category name → array of questions
 
@@ -9,6 +10,7 @@ function loadQuestionsFromFile() {
 
             // Clear all
             questions = [];
+            allQuestions = [];
             categories = {};
             questionsByCategory = {};
 
@@ -32,33 +34,36 @@ function loadQuestionsFromFile() {
 
             // Recover questions
             lines.forEach(line => {
-                const [category, question, options, answer, status] =
-                    line.split('|').map(item => item.trim());
-
-                // Only questions with status Ok
-                if (status !== "Ok") return;
+                const [category, question, options, answer, statusStr] = line.split('|').map(item => item.trim());
 
                 const optionsArray = options.split(';').map(o => o.trim());
-
-                // Collect category names
-                if (!discoveredCategories.includes(category)) {
-                    discoveredCategories.push(category);
-                }
+                const statusBool = statusStr === "Ok";
 
                 const q = {
                     category,
                     question,
                     options: optionsArray,
-                    answer
+                    answer,
+                    status: statusBool
                 };
 
-                questions.push(q);
+                allQuestions.push(q);
 
-                // Group questions by category name
-                if (!questionsByCategory[category]) {
-                    questionsByCategory[category] = [];
+                // Only questions with true status are used in game
+                if (q.status) {
+                    // Collect category names for valid questions
+                    if (!discoveredCategories.includes(category)) {
+                        discoveredCategories.push(category);
+                    }
+
+                    questions.push(q);
+
+                    // Group questions by category name
+                    if (!questionsByCategory[category]) {
+                        questionsByCategory[category] = [];
+                    }
+                    questionsByCategory[category].push(q);
                 }
-                questionsByCategory[category].push(q);
             });
 
             // Build categories map with numeric keys
@@ -73,15 +78,13 @@ function loadQuestionsFromFile() {
 async function loadQuestionsFromFirebase() {
     db.collection('questions').onSnapshot(snapshot => {
         questions = [];
+        allQuestions = [];
         categories = {};
         questionsByCategory = {};
         const discoveredCategories = [];
 
         snapshot.forEach(doc => {
             const data = doc.data();
-
-            // Only questions with status true
-            if (data.status !== true) return;
 
             const categoryName = data.category;
 
@@ -95,16 +98,21 @@ async function loadQuestionsFromFirebase() {
                 category: categoryName,
                 question: data.question,
                 options: data.options,
-                answer: data.answer
+                answer: data.answer,
+                status: data.status
             };
 
-            questions.push(q);
+            allQuestions.push(q);
 
-            // Group questions by category name
-            if (!questionsByCategory[categoryName]) {
-                questionsByCategory[categoryName] = [];
+            if(q.status) {
+                questions.push(q);
+
+                // Group questions by category name
+                if (!questionsByCategory[categoryName]) {
+                    questionsByCategory[categoryName] = [];
+                }
+                questionsByCategory[categoryName].push(q);
             }
-            questionsByCategory[categoryName].push(q);
         });
 
         // Build categories map with numeric keys
@@ -321,16 +329,36 @@ document.addEventListener("touchstart", () => {
     }
 });
 
+function bindAdminActionEvents() {
+    // Edit buttons
+    document.querySelectorAll(".edit-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const id = btn.dataset.id;
+            const q = allQuestions.find(x => x.id === id);
+            if (q) openEditModal(q);
+        });
+    });
+
+    // Delete buttons
+    document.querySelectorAll(".delete-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const id = btn.dataset.id;
+            questionToDelete = id;
+            M.Modal.getInstance(deleteModal).open();
+        });
+    });
+}
+
 function showQuestionList() {
     listContainer.innerHTML = "";
     const selectedCategory = categorySelector.value;
     let filteredQuestions;
 
     if (selectedCategory === "0") {
-        filteredQuestions = questions;
+        filteredQuestions = allQuestions;
     } else {
         const categoryName = categories[selectedCategory];
-        filteredQuestions = questions.filter(q => q.category === categoryName);
+        filteredQuestions = allQuestions.filter(q => q.category === categoryName);
     }
 
     const listElement = document.createElement("ul");
@@ -339,10 +367,54 @@ function showQuestionList() {
     filteredQuestions.forEach(q => {
         const listItem = document.createElement("li");
         listItem.classList.add("question-item");
-        listItem.innerHTML = `<strong>${q.question}</strong><br>Resposta correta: ${q.answer}`;
+
+        // Base content
+        let content = `
+            <strong>${q.question}</strong><br>
+            Resposta correta: ${q.answer}
+        `;
+
+        if (q.status) {
+            content += `
+                <div class="status">
+                    <img src="assets/store/ok.png"
+                        style="width:22px; height:22px; cursor:pointer; margin-right:10px;"> 
+                </div>
+            `;
+        } else {
+            content += `
+                <div class="status">
+                    <img src="assets/store/nok.png"
+                        style="width:22px; height:22px; cursor:pointer; margin-right:10px;"> 
+                </div>
+            `;
+        }
+
+        // If ADMIN, add buttons
+        if (checkIfAdmin()) {
+            content += `
+                <div class="admin-actions">
+                    <img src="assets/store/edit.png" 
+                        class="action-btn edit-btn"
+                        data-id="${q.id}" 
+                        style="width:22px; height:22px; cursor:pointer; margin-right:10px;">
+
+                    <img src="assets/store/delete.png" 
+                        class="action-btn delete-btn"
+                        data-id="${q.id}" 
+                        style="width:22px; height:22px; cursor:pointer;">
+                </div>
+            `;
+        }
+
+        listItem.innerHTML = content;
         listElement.appendChild(listItem);
     });
+
     listContainer.appendChild(listElement);
+
+    // Bind Edit/Delete events
+    bindAdminActionEvents();
 }
 
 modeSelector.addEventListener("change", () => {

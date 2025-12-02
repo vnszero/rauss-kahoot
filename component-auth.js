@@ -45,16 +45,15 @@ function finishModal() {
 
     M.Modal.getInstance(modal).close();
     updateAdminIcons();
+    showQuestionList();
 }
 
 function openEditModal(q) {
     const modal = document.querySelector('#modal-create');
     const form = document.querySelector('#create-form');
 
-    form['question'].value = q.question;
+    form['question-field'].value = q.question;
     form['answer'].value = q.answer;
-
-    updateModalCategorySelect(q.category);
 
     // Status switch (true/false)
     document.getElementById("status").checked = q.status === true;
@@ -226,7 +225,7 @@ createForm.addEventListener('submit', (e) => {
     const options = [correct, ...fakeOptions];
 
     const questionData = {
-        question: createForm['question'].value,
+        question: createForm['question-field'].value,
         answer: correct,
         category: createForm['category'].value,
         options,
@@ -256,6 +255,7 @@ deleteConfirmBtn.addEventListener('click', () => {
 
             // Update admin icons after the modal action
             updateAdminIcons();
+            showQuestionList();
         }).catch(err => {
             console.error('Error deleting question:', err);
         });

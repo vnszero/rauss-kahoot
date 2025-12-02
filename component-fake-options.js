@@ -1,5 +1,25 @@
 let fakeIndex = 0;
 
+function addFakeOptionField(value = "") {
+    fakeIndex++;
+
+    const container = document.getElementById("fake-options-container");
+    const id = `fake-option-${fakeIndex}`;
+
+    container.insertAdjacentHTML("beforeend", `
+        <div class="input-field col s12 fake-option">
+            <input type="text" id="${id}" class="fake-option-input" value="${value}" required />
+            <label class="active" for="${id}">Alternativa Errada ${fakeIndex}</label>
+
+            <a class="remove-fake-option red-text" data-id="${id}" style="cursor:pointer; margin-left:10px;">
+                ×
+            </a>
+        </div>
+    `);
+
+    M.updateTextFields();
+}
+
 document.getElementById("add-fake-option-btn").addEventListener("click", () => {
     fakeIndex++;
 
